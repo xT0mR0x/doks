@@ -136,10 +136,11 @@ pre {
   padding: 0.25rem 0.5rem 0.25rem 0;
   font-weight: $headings-font-weight;
   font-size: $font-size-base;
-  text-transform: uppercase;
+  text-transform: to-upper-case($string: "");
   color: $body-color;
   background-color: transparent;
-  border: 0;
+  border: none;
+  box-shadow: none;
 }
 
 .btn-toggle:hover,
@@ -161,6 +162,7 @@ pre {
 
 .btn-toggle[aria-expanded="true"] {
   color: $body-color;
+  color: $purple;
 }
 
 .btn-toggle[aria-expanded="true"]::before {

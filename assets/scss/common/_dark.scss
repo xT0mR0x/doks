@@ -23,7 +23,7 @@ $navbar-dark-active-color:          $link-color-dark;
 /** Theme styles */
 
 [data-dark-mode] body {
-  background: $body-bg-dark;
+  background: hsla(240, 100%, 2%, 0.95);
   color: $body-color-dark;
 }
 
@@ -36,9 +36,7 @@ $navbar-dark-active-color:          $link-color-dark;
 }
 
 [data-dark-mode] body .btn-primary {
-  @include button-variant($button-color-dark, $button-color-dark);
-
-  color: $body-bg-dark !important;
+  background-color: rgba(0, 22, 43, 0.95);
 }
 
 [data-dark-mode] body .btn-outline-primary {
@@ -83,7 +81,7 @@ $navbar-dark-active-color:          $link-color-dark;
 
 [data-dark-mode] body .navbar,
 [data-dark-mode] body .doks-subnavbar {
-  background-color: rgba(33, 37, 41, 0.95);
+  background-color: rgba(0, 22, 43, 0.95);
   border-bottom: 1px solid $border-dark;
 }
 
@@ -108,8 +106,31 @@ $navbar-dark-active-color:          $link-color-dark;
   color: $link-color-dark;
 }
 
-[data-dark-mode] body .navbar-light .navbar-brand {
-  color: $navbar-dark-color !important;
+[data-dark-mode] body .navbar-brand {
+  background: #ffffff;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.3s ease;
+  position: relative;
+}
+[data-dark-mode] body .navbar-brand:hover {
+  -webkit-text-fill-color: $blue-300;
+}
+
+[data-dark-mode] body .navbar-brand::after {
+  content: '';
+  display: block;
+  height: 2px;
+  width: 0;
+  background: $blue-300;
+  transition: width 0.3s ease;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+[data-dark-mode] body .navbar-brand:hover::after {
+  width: 100%;
 }
 
 [data-dark-mode] body .navbar-light .navbar-nav .nav-link {
@@ -176,12 +197,8 @@ $navbar-dark-active-color:          $link-color-dark;
 [data-dark-mode] body .btn-toggle {
   color: $body-color-dark;
   background-color: transparent;
-  border: 0;
-}
-
-[data-dark-mode] body .btn-toggle:hover,
-[data-dark-mode] body .btn-toggle:focus {
-  color: $body-color-dark;
+  border: none;
+  box-shadow: none;
 }
 
 [data-dark-mode] body .btn-toggle::before {
@@ -195,6 +212,7 @@ $navbar-dark-active-color:          $link-color-dark;
 
 [data-dark-mode] body .btn-toggle[aria-expanded="true"] {
   color: $body-color-dark;
+  color: $blue-300;
 }
 
 [data-dark-mode] body .btn-toggle[aria-expanded="true"]::before {
@@ -381,8 +399,14 @@ $navbar-dark-active-color:          $link-color-dark;
 }
 
 [data-dark-mode] body .card {
-  background: $body-bg-dark;
-  border: 1px solid $border-dark;
+  background-color: rgba(0, 22, 43, 0.95);
+  border: 0px solid #6f42c1;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+[data-dark-mode] body .card:hover {
+  transform:translateY(5px);
 }
 
 [data-dark-mode] body .card.bg-light {
