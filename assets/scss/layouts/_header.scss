@@ -1,5 +1,5 @@
 body {
-  background: rgba(242,242,234,213);
+  background: rgba(242, 242, 234, 213);
 }
 
 .banner .nav li {
@@ -19,18 +19,19 @@ body {
 }
 
 body .navbar-brand {
-  background: #000000;
+  background: #000;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   transition: all 0.3s ease;
   position: relative;
 }
+
 body .navbar-brand:hover {
   -webkit-text-fill-color: $purple;
 }
 
 body .navbar-brand::after {
-  content: '';
+  content: "";
   display: block;
   height: 2px;
   width: 0;
@@ -40,6 +41,7 @@ body .navbar-brand::after {
   bottom: 0;
   left: 0;
 }
+
 body .navbar-brand:hover::after {
   width: 100%;
 }
@@ -55,12 +57,10 @@ body .navbar-brand:hover::after {
   color: $primary;
 }
 */
-
 .navbar {
   z-index: 1000;
   background-color: rgb(249, 233, 215);
   border-bottom: 1px solid $gray-200;
-
 
   /*
   margin-top: 4px;
@@ -78,8 +78,7 @@ body .navbar-brand:hover::after {
 @include media-breakpoint-up(md) {
   .navbar-brand {
     font-size: 15px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   }
 
   .navbar-text {
