@@ -42,8 +42,11 @@ VSSVC.exe ,compattelrunner.exe ,calculator.exe ,net.exe ,lsass.exe ,msiexec.exe,
 IcedID then writes itself into two Dynamic Link Libraries, and writes its payload into the `"%ProgramData%"` or `"%AppData%"` folder. It also creates a scheduled task that allows it to execute every time the system reboots. It establishes a proxy server to monitor and redirect victim traffic, and uses fake websites to socially engineer victims into providing login credentials. It communicates with its C2 server via HTTPS and uses unique client IDs to identify individual infections. 
 more details -> [VirusTotal](https://www.virustotal.com/gui/file/baeb13eea3a71cfaba9d20ef373dcea69cf31f2ec21f45b83f29f699330cb3e3/behavior)
 
+-------------------------------------------------------------------------------
+
 <img src="mygraph.png">~ Created with <a href="https://www.diagrams.net/" target="_blank">Diagrams</a>.
 
+--------------------------------------------------------------------------------
 
 ## Recommendations
 •	Regularly scan systems for malware and keep antivirus software up-to-date.
