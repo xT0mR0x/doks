@@ -2,6 +2,8 @@
 title: "Masterschool Final Assessment (Splunk Log Analysis)"
 description: 
 excerpt:
+date: 2022-12-26T19:41:26+02:00
+lastmod: 2023-01-06T19:41:26+02:00
 draft: false
 weight: 50
 images: [72c80fd384e13fe59401a3fc3671893c.jpg]

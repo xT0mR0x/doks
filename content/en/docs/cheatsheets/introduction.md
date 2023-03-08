@@ -13,3 +13,7 @@ menu:
 weight: 100
 toc: true
 ---
+
+#### Welcome to my cheatsheets!
+
+<a class="btn btn-primary btn- px-4 mb-2" href="/docs/cheatsheets/linuxcommands/lorem/basic/linuxbasic/" role="button">Linux</a>
