@@ -18,4 +18,5 @@ The purpose of creating this website is to share my documentation and projects, 
 
 <a href="https://www.linkedin.com/in/tr94" target="_blank"><img src="linkedin.png" alt="linkedin" width="30" height="30" style="margin-right: 6px;"></a>
 <a href="https://github.com/xT0mR0x" target="_blank"><img src="github.png" alt="github" width="40" height="40" style="margin-right: 10px;"></a>
+
 -------------------------------------------------------
