@@ -1,4 +1,4 @@
-baseurl = "https://doks-qde.pages.dev"
+baseurl = "https://tomr.pro"
 canonifyURLs = false
 disableAliases = true
 disableHugoGeneratorInject = true
