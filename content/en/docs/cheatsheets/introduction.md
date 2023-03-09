@@ -32,7 +32,7 @@ toc: true
 While every effort has been made to ensure the accuracy and completeness of the information, I make no guarantee or warranty, express or implied, as to the accuracy, reliability, or completeness of this information. Any reliance you place on such information is therefore strictly at your own risk.
 
 ----------------------------------
-More greate useful resources:
+More great useful resources:
 
 <a href>https://www.codecademy.com/resources/cheatsheets/all</a>
 
