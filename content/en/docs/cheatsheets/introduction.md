@@ -2,18 +2,40 @@
 title: ""
 description: ""
 lead: ""
-date: 2022-01-25T14:41:39+01:00
-lastmod: 2022-01-25T14:41:39+01:00
 draft: false
 images: []
-type: docs
-menu:
-  docs:
-    identifier: "ipsum-898b778d9e4b73c456e9d6b443abb1f3"
 weight: 100
 toc: true
 ---
 
-#### Welcome to my cheatsheets!
+<p style="font-family: Courier New; font-size: 50px">CHEATSHEETS</p>
 
-<a class="btn btn-primary btn- px-4 mb-2" href="/docs/cheatsheets/linuxcommands/lorem/basic/linuxbasic/" role="button">Linux</a>
+-------------------------------
+
+<p style="font-family: Courier New; font-size: 30px">Operating Systems</p>
+
+<a class="btn btn-primary btn- px-4 mb-2" href="/docs/cheatsheets/os/linux/introduction/" role="button">Linux</a>
+
+
+<p style="font-family: Courier New; font-size: 30px">Tools</p>
+
+<a class="btn btn-primary btn- px-4 mb-2" href="/docs/cheatsheets/networking/nmapsheet/" role="button">Nmap</a>
+
+<p style="font-family: Courier New; font-size: 30px">Networking</p>
+
+<a class="btn btn-primary btn- px-4 mb-2" href="/docs/cheatsheets/networking/portsandprotocols/" role="button">Protocols</a>
+
+-------------------------------
+
+<font color="orange">[ ! ]</font> The information provided is a compilation of various resources, including but not limited to online articles, and the assistance of ChatGPT, an AI language model trained by OpenAI. I take great care to ensure that I do not use any copyrighted material without the appropriate permissions and I always use open resources whenever possible.
+
+While every effort has been made to ensure the accuracy and completeness of the information, I make no guarantee or warranty, express or implied, as to the accuracy, reliability, or completeness of this information. Any reliance you place on such information is therefore strictly at your own risk.
+
+----------------------------------
+More greate useful resources:
+
+<a href>https://www.codecademy.com/resources/cheatsheets/all</a>
+
+<a href>http://www.cheat-sheets.org</a>
+
+<a href>https://www.stationx.net/category/cheat-sheets/</a>

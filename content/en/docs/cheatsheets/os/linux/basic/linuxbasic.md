@@ -7,15 +7,11 @@ lastmod: 2022-01-25T14:41:39+01:00
 draft: false
 images: []
 type: docs
-menu:
-  docs:
-    identifier: "ipsum-cb4e7b94978aeb63df9471883d5643bb"
 weight: 100
 toc: true
 ---
-By Tom Rosenzweig 
 
------------------------------------------------------------------------------------------
+------------------------------------------------------------------
 
 ## Processes
 

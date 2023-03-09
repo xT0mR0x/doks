@@ -16,6 +16,8 @@ toc: true
 ---
 
 
-#### Welcome to my tutorials!
+<p style="font-family: Courier New; font-size: 50px"> TUTORIALS</p>
 
-<a class="btn btn-primary btn- px-4 mb-2" href="/docs/my-tutorials/how/doks/introduction/" role="button">How I built this website</a>
+----------------
+
+<a class="btn btn-primary btn- px-4 mb-2" href="/docs/tutorials/how/doks/introduction/" role="button">How I built this website</a>
