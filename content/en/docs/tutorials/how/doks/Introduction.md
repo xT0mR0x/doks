@@ -123,3 +123,5 @@ Add some markdown to the body of the post, but do not change the draft value.
     draft: true
     ---
 ----------> <a href="https://gohugo.io/" target="_blank">Full Tutorial and more information</a>
+
+ <a href="/docs/tutorials/how/doks/install/"> &rarr; Creare a Doks website</a>

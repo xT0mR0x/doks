@@ -1,7 +1,7 @@
 ---
 title: "Masterschool Final Assessment (Splunk Log Analysis)"
 description: 
-excerpt:
+excerpt: "Log Analysis and Malware Report by Tom Rosenzweig"
 date: 2022-12-26T19:41:26+02:00
 lastmod: 2023-01-06T19:41:26+02:00
 draft: false
@@ -16,7 +16,6 @@ homepage: false
 
 <h2> <span style="color: green">Masterschool Final Assessment</span> (Splunk log analysis)</h2>
 
- by Tom Rosenzweig
 
 ------------------------------------------------------------
 The assessment was to create a report that will look over the activity and outline a strategy to prevent similar events. I needed to use various tools and techniques to review the logs, develop a comprehensive security policy, and make recommendations.

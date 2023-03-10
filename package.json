@@ -67,5 +67,8 @@
   },
   "otherDependencies": {
     "hugo": "0.107.0"
+  },
+  "dependencies": {
+    "particles.js": "^2.0.0"
   }
 }
