@@ -52,7 +52,7 @@ html, body{
 
 [data-dark-mode] body .btn-outline-primary {
   @include button-outline-variant($button-color-dark, $button-color-dark);
-
+  border:0;
   color: $link-color-dark;
 }
 
