@@ -2,7 +2,7 @@
 
 ## Homepage
  title = " Tom Rosenzweig "
- titleSeparator = "| Docs "
+ titleSeparator = ""
  titleAddition = ""
  description = ""
 
@@ -65,7 +65,7 @@ defaultImage = "default-image.png" # put in `./assets/images/`
 fillImage = "1270x740 Center" # normalize image size
 
 # Footer
-footer = "<p>© 2023 Tom Rosenzweig<br> Built with <a class=\"text-muted\" color: aliceblue; href=\"https://gohugo.io/\">Hugo</a>, and <a class=\"text-muted\" href=\"https://getdoks.org/\">Doks</a>"
+footer = "<p>© 2023 Tom Rosenzweig<br> ⚡ Powered by <a class=\"text-muted\" color: aliceblue; href=\"https://gohugo.io/\">Hugo</a> and   <a class=\"text-muted\" href=\"https://getdoks.org/\">Doks </a> theme"
 
 # Feed
 copyRight = ""

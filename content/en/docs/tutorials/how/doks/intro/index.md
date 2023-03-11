@@ -15,6 +15,21 @@ toc: true
 ---
 -----------------------------
 
+<style>
+  .border {
+    border: 2px solid #333;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #f7f7f7;
+    box-shadow: 0px 3px 3px #ccc;
+    width: fit-content;
+  }
+</style>
+
+<div class="border">
+  <img src="hugo.png"/>
+</div>
+
 ## What is Hugo?
 
 Hugo is a static HTML and CSS website generator written in [Go](https://go.dev/).

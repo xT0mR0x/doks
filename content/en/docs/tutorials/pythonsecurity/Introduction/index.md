@@ -1,5 +1,5 @@
 ---
-title: "Intro"
+title: "Introduction"
 description: ""
 lead: ""
 draft: false
@@ -10,9 +10,23 @@ toc: true
 
 ---
 
+<style>
+  .border {
+    border: 2px solid #333;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #f7f7f7;
+    box-shadow: 0px 3px 3px #ccc;
+    width: fit-content;
+  }
+</style>
 
+<div class="border">
+  <img src="python_logo.webp"/>
+</div>
 
 <p style="font-family: Courier New; font-size: 50px">Python for Security</p>
+
 
 ---
 

@@ -20,17 +20,6 @@ $navbar-dark-color:                 $body-color-dark;
 $navbar-dark-hover-color:           $link-color-dark;
 $navbar-dark-active-color:          $link-color-dark;
 
-html, body{
-  height: 100%;
-  margin:0px;
-  padding: 0px;
-}
-#particles-js{
-  width: 100%;
-  height: 100%;
-  background: #111111;
-}
-
 /** Theme styles */
 
 [data-dark-mode] body {
@@ -106,11 +95,12 @@ html, body{
 
 [data-dark-mode] body .offcanvas .nav-link {
   color: $body-color-dark;
+  
 }
 
 [data-dark-mode] body .offcanvas .nav-link:hover,
 [data-dark-mode] body .offcanvas .nav-link:focus {
-  color: $link-color-dark;
+  color: $blue-300;
 }
 
 [data-dark-mode] body .offcanvas .nav-link.active {
@@ -337,6 +327,7 @@ html, body{
 
 [data-dark-mode] body pre code::-webkit-scrollbar-thumb {
   background: $gray-400;
+  
 }
 
 [data-dark-mode] body code:not(.hljs) {
