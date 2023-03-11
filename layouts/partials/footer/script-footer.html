@@ -1,119 +1,123 @@
-{{ $indexTemplate := resources.Get "js/index.js" -}}
-{{ $index := $indexTemplate | resources.ExecuteAsTemplate "index.js" . -}}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"  integrity="sha512-Kef5sc7gfTacR7TZKelcrRs15ipf7+t+n7Zh6mKNJbmW+/RRdCW9nwfLn4YX0s2nO6Kv5Y2ChqgIakaC6PW09A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-{{ $bs := resources.Get "js/bootstrap.js" -}}
-{{ $bs := $bs | js.Build -}}
+<style>
+  html, body {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
 
-{{ $highlight := resources.Get "js/highlight.js" -}}
-{{ $highlight := $highlight | js.Build -}}
+  #particles-js {
+    align-items: center;
+    width: 50;
+    height: 15%;
+    background: transparent;
+    position: absolute;
+    right: 0%;
+    border-bottom: 10px;
+  }
 
-{{ $katex := resources.Get "js/vendor/katex/dist/katex.js" -}}
-{{ $katexAutoRender := resources.Get "js/vendor/katex/dist/contrib/auto-render.js" -}}
+</style>
 
-{{ $mermaid := resources.Get "js/mermaid.js" | js.Build -}}
+<div id="particles-js"></div>
 
-{{ $app := resources.Get "js/app.js" -}}
-
-{{ $slice := slice $app -}}
-
-{{ if .Site.Params.options.lazySizes -}}
-  {{ $lazySizes := resources.Get "js/lazysizes.js" -}}
-  {{ $lazySizes := $lazySizes | js.Build -}}
-  {{ $slice = $slice | append $lazySizes -}}
-{{ end -}}
-
-{{ if .Site.Params.options.clipBoard -}}
-  {{ $clipBoard := resources.Get "js/clipboard.js" -}}
-  {{ $clipBoard := $clipBoard | js.Build -}}
-  {{ $slice = $slice | append $clipBoard -}}
-{{ end -}}
-
-{{ if .Site.Params.options.instantPage -}}
-  {{ $instantPage := resources.Get "js/instant.page.js" -}}
-  {{ $instantPage := $instantPage | js.Build -}}
-  {{ $slice = $slice | append $instantPage -}}
-{{ end -}}
-
-{{ $showFlexSearch := .Site.Params.options.flexSearch }}
-
-{{ if $showFlexSearch -}}
-  {{ $flexSearch := resources.Get "js/vendor/flexsearch/dist/flexsearch.bundle.js" -}}
-  {{ $slice = $slice | append $flexSearch -}}
-  {{ if and (isset .Site.Params.options "searchsectionsshow") (not (eq .Site.Params.options.searchSectionsShow "ALL")) -}}
-  {{ $showFlexSearch = or (eq (len .Site.Params.options.searchSectionsShow) 0) (in .Site.Params.options.searchSectionsShow .Section) (and .IsHome (in .Site.Params.options.searchSectionsShow "HomePage")) -}}
-  {{ end -}}
-{{ end -}}
-
-{{ if .Site.Params.options.darkMode -}}
-  {{ $darkMode := resources.Get "js/darkmode.js" -}}
-  {{ $darkMode := $darkMode | js.Build -}}
-  {{ $slice = $slice | append $darkMode -}}
-{{ end -}}
-
-{{ if and (.Site.Params.alert) (.Site.Params.alertDismissable) -}}
-  {{ $alert := resources.Get "js/alert.js" -}}
-  {{ $alert := $alert | js.Build -}}
-  {{ $slice = $slice | append $alert -}}
-{{ end -}}
-
-{{ if .Site.Params.options.kaTex -}}
-  {{ $katexConfig := resources.Get "js/katex.js" -}}
-  {{ $katexConfig := $katexConfig | js.Build -}}
-  {{ $slice = $slice | append $katexConfig -}}
-{{ end -}}
-
-{{ $scrollLock := resources.Get "js/scroll-lock.js" | js.Build -}}
-{{ $slice = $slice | append $scrollLock -}}
-
-{{ if .Site.Params.options.toTopButton -}}
-  {{ $toTopButton := resources.Get "js/to-top.js" -}}
-  {{ $toTopButton := $toTopButton | js.Build -}}
-  {{ $slice = $slice | append $toTopButton -}}
-{{ end -}}
-
-{{ $js := $slice | resources.Concat "main.js" -}}
-
-{{ if eq (hugo.Environment) "development" -}}
-  {{ if .Site.Params.options.bootStrapJs -}}
-    <script src="{{ $bs.RelPermalink }}" defer></script>
-  {{ end -}}
-  {{ if .Site.Params.options.highLight -}}
-    <script src="{{ $highlight.RelPermalink }}" defer></script>
-  {{ end -}}
-  {{ if .Site.Params.options.kaTex -}}
-    <script src="{{ $katex.RelPermalink }}" defer></script>
-    <script src="{{ $katexAutoRender.RelPermalink }}" onload="renderMathInElement(document.body);" defer></script>
-  {{ end -}}
-  <script src="{{ $js.RelPermalink }}" defer></script>
-  {{ with .Params.mermaid -}}
-    <script src="{{ $mermaid.RelPermalink }}" defer></script>
-  {{ end -}}
-  {{ if $showFlexSearch -}}
-    <script src="{{ $index.RelPermalink }}" defer></script>
-  {{ end -}}
-{{ else -}}
-  {{ $js := $js | minify | fingerprint "sha512" -}}
-  {{ $index := $index | minify | fingerprint "sha512" -}}
-  {{ $bs := $bs | minify | fingerprint "sha512" -}}
-  {{ $highlight := $highlight | minify | fingerprint "sha512" -}}
-  {{ $katex := $katex | minify | fingerprint "sha512" -}}
-  {{ $katexAutoRender := $katexAutoRender | minify | fingerprint "sha512" -}}
-  {{ $mermaid := $mermaid | minify | fingerprint "sha512" -}}
-  {{ if .Site.Params.options.bootStrapJs -}}
-    <script src="{{ $bs.RelPermalink }}" integrity="{{ $bs.Data.Integrity }}" crossorigin="anonymous" defer></script>
-  {{ end -}}
-  {{ if .Site.Params.options.highLight -}}
-    <script src="{{ $highlight.RelPermalink }}" integrity="{{ $highlight.Data.Integrity }}" crossorigin="anonymous" defer></script>
-  {{ end -}}
-  {{ if .Site.Params.options.kaTex -}}
-    <script src="{{ $katex.RelPermalink }}" integrity="{{ $katex.Data.Integrity }}" crossorigin="anonymous" defer></script>
-    <script src="{{ $katexAutoRender.RelPermalink }}" integrity="{{ $katexAutoRender.Data.Integrity }}" crossorigin="anonymous" defer></script>
-  {{ end -}}
-  <script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}" crossorigin="anonymous" defer></script>
-  {{ with .Params.mermaid -}}
-    <script src="{{ $mermaid.RelPermalink }}" integrity="{{ $mermaid.Data.Integrity }}" crossorigin="anonymous" defer></script>
-  {{ end -}}
-  {{ if $showFlexSearch -}}
-    <script src="{{ $index.Permalink }}" integrity="{{ $index.Data.Integrity }}" crossorigin="anonymous" defer></script>
-  {{ end -}}
-{{ end -}}
+<script>
+particlesJS("particles-js", {
+  "particles": {
+    "number": {
+      "value": 100,
+      "density": {
+        "enable": true,
+        "value_area":1000
+      
+      }
+    },
+    "color": {
+      "value": ["#aa73ff", "#f8c210", "#83d238", "#33b1f8"]
+    },
+    
+    "shape": {
+      "type": "circle",
+      "stroke": {
+        "width": 0,
+        "color": "#fff"
+      },
+      "polygon": {
+        "nb_sides": 5
+      },
+      "image": {
+        "src": "img/github.svg",
+        "width": 100,
+        "height": 100
+      }
+    },
+    "opacity": {
+      "value": 0.6,
+      "random": false,
+      "anim": {
+        "enable": false,
+        "speed": 0.5,
+        "opacity_min": 0.1,
+        "sync": false
+      }
+    },
+    "size": {
+      "value": 2,
+      "random": true,
+      "anim": {
+        "enable": false,
+        "speed": 20,
+        "size_min": 0.1,
+        "sync": false
+      }
+    },
+    "line_linked": {
+      "enable": true,
+      "distance": 120,
+      "color": "#ffffff",
+      "opacity": 0.4,
+      "width": 1
+    },
+  },
+  "interactivity": {
+    "detect_on": "canvas",
+    "events": {
+      "onhover": {
+        "enable": true,
+        "mode": "grab"
+      },
+      "onclick": {
+        "enable": false
+      },
+      "resize": true
+    },
+    "modes": {
+      "grab": {
+        "distance": 140,
+        "line_linked": {
+          "opacity": 1
+        }
+      },
+      "bubble": {
+        "distance": 400,
+        "size": 40,
+        "duration": 2,
+        "opacity": 8,
+        "speed": 1
+      },
+      "repulse": {
+        "distance": 200,
+        "duration": 0.4
+      },
+      "push": {
+        "particles_nb": 4
+      },
+      "remove": {
+        "particles_nb": 2
+      }
+    }
+  },
+  "retina_detect": true
+});
+</script>
+</footer>
