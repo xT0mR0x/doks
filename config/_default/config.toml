@@ -108,7 +108,4 @@ rel  = "sitemap"
   [[module.mounts]]
     source = "node_modules/@hyas/images/layouts"
     target = "layouts"
-  [[module.mounts]]
-    source = "node_modules/particles.js"
-    target = "layouts"
 
