@@ -9,26 +9,29 @@ toc: true
 ---
 
 
-<p style="font-family: Courier New; font-size: 50px">CHEATSHEETS</p>
+<p style="font-size: 50px">CHEATSHEETS</p>
 <br>
 
 ---------------------------------
-<br>
+
 <div class="row justify-content-left">
 	<div class="col-md-12 col-lg-10 col-xl-8">
 		<article>
 			<div class="card-list">
+			  <br>Operating Systems
             <div class="card my-3">
 					<div class="card-body">
-						<a class="stretched-link" href="/docs/cheatsheets/os/linux/introduction/">[ LINUX ] CHEETSHEET &rarr;</a>
+						<a class="stretched-link" href="/docs/cheatsheets/os/linux/introduction/">Linux &rarr;</a>
 					</div>
 				</div>
+				<br> Tools
 				<div class="card my-3">
-					<div class="card-body">	<a class="stretched-link" href="/docs/cheatsheets/networking/nmapsheet/"> [ NMAP ] CHEATSHEET &rarr;</a>
+					<div class="card-body">	<a class="stretched-link" href="/docs/cheatsheets/networking/nmapsheet/">Nmap &rarr;</a>
 					</div>
                     </div>
+			       <br> Networking
                  <div class="card my-3">
-					<div class="card-body">	<a class="stretched-link" href="/docs/cheatsheets/networking/portsandprotocols/">PROTOCOLS &rarr;</a>
+					<div class="card-body">	<a class="stretched-link" href="/docs/cheatsheets/networking/portsandprotocols/">Ports and Protocols &rarr;</a>
 					</div>
                     </div>   
                 </div>
@@ -42,6 +45,10 @@ toc: true
 
 While every effort has been made to ensure the accuracy and completeness of the information, I make no guarantee or warranty, express or implied, as to the accuracy, reliability, or completeness of this information. Any reliance you place on such information is therefore strictly at your own risk.
 
+<br>
+
+--------------------------------------
+<br><br>
 More great useful resources:
 
 <a href>https://www.codecademy.com/resources/cheatsheets/all</a>

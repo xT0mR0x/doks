@@ -26,6 +26,13 @@ h4:hover a {
   transition: all 0.3s ease;
 }
 
+  body .card {
+  background-color: rgb(249, 233, 215);
+  border: 0 solid #6f42c1;
+  color: $black;
+  transition: all 0.3s ease;
+}
+
 [data-dark-mode] body .card:hover {
   transform: translateY(5px);
 }
