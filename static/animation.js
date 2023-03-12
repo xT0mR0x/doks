@@ -7,7 +7,7 @@ var container = document.getElementById("text-container");
 container.innerHTML = "";
 
 // Loop through each character and add it to the container with a delay
-var delay = 40; // milliseconds
+var delay = 80; // milliseconds
 for (var i = 0; i < text.length; i++) {
   (function (i) {
     setTimeout(function () {
