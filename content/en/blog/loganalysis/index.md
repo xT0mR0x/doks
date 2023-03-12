@@ -1,12 +1,12 @@
 ---
-title: "Masterschool Final Assessment (Splunk Log Analysis)"
+title: "Masterschool Final Assessment - Malware Report"
 description: 
 excerpt: "Log Analysis and Malware Report by Tom Rosenzweig"
 date: 2022-12-26T19:41:26+02:00
 lastmod: 2023-01-06T19:41:26+02:00
 draft: false
 weight: 50
-images: [72c80fd384e13fe59401a3fc3671893c.jpg]
+images: []
 categories: ""
 tags: ""
 contributors: ""
@@ -35,6 +35,8 @@ the malicious actor used this foothold to perform other malicious activities, su
 
 ## Findings
 <h4>IcedID</h4> is a banking trojan that targets user financial information and can also act as a dropper for other types of malware. It uses man-in-the-browser attacks to steal login credentials and other sensitive information, which it then uses to take over financial accounts and conduct money transactions. IcedID is often spread through spam emails and phishing, and can inject itself into the memory of an operating system or regular processes in order to evade detection. The creators of IcedID frequently update the malware to increase its persistence and avoid detection by security software. capable of disguising itself as legitimate software, displaying fake update prompts, and bypassing two-factor authentication.
+
+
 
 IcedID establishes persistence on an infected system through process-hollowing. After infection, it hooks certain Application Programming Interface (API) functions, and creates a service host process called “svchost.exe” for example. 
 The sysmon.log seems to reveal a pretty long list of legitimate processes and built-in windows programs that has been replaced and modified by the malware, few of them:
