@@ -14,4 +14,4 @@ images: []
 	<link rel="stylesheet" href="style.css">
     <div id="text-container"></div>
     <script src="animation.js"></script>
-<br><br><br>
+<br><br>
