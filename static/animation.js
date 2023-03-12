@@ -4,7 +4,7 @@ var text = "Wellcom!\n\nMy name is Tom Rosenzweig, I am an ambitious and aspirin
 
 // Set the text content of the container element
 var container = document.getElementById("text-container");
-container.innerHTML = "";
+container.innerText = "";
 
 // Loop through each character and add it to the container with a delay
 var delay = 40; // milliseconds
@@ -12,6 +12,9 @@ for (var i = 0; i < text.length; i++) {
   (function (i) {
     setTimeout(function () {
       container.innerHTML += text.charAt(i);
+      if (i == text.length - 1) {
+        container.innerHTML += "<br><br><br>";
+      }
     }, i * delay);
   })(i);
 }
