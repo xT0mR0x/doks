@@ -17,20 +17,44 @@
 
 [[main]]
   name = "Projects"
-  weight = 50
+  weight = 30
   url = "/blog/"
     
 [[main]]
-  name = "Tutorials"
-  weight = 50
-  url = "/docs/tutorials/introduction/"
-  parent = "Resources"
+  name = "Python for Security"
+  weight = 45
+  url = "/docs/tutorials/pythonsecurity/introduction/"
+  parent = "Tutorials"
   
-  [[main]]
-  name = "Cheatsheets"
+[[main]]
+  name = "Hugo and Doks"
   weight = 50
-  url = "/docs/cheatsheets/introduction/"
-  parent = "Resources"
+  url = "/docs/tutorials/how/doks/intro/"
+  parent = "Tutorials"
+
+[[main]]
+  name = "Linux Basic Commands"
+  weight = 15
+  url = "/docs/cheatsheets/os/linux/basic/linuxbasic/"
+  parent = "Cheatsheets"
+
+[[main]]
+  name = "Linux Advanced Commands"
+  weight = 20
+  url = "/docs/cheatsheets/os/linux/adv/linuxadv/"
+  parent = "Cheatsheets"
+
+[[main]]
+  name = "Nmap Cheatsheet"
+  weight = 5
+  url = "/docs/cheatsheets/networking/nmapsheet/"
+  parent = "Cheatsheets"
+
+[[main]]
+  name = "Ports and Protocols"
+  weight = 10
+  url = "/docs/cheatsheets/networking/portsandprotocols/"
+  parent = "Cheatsheets"
 
 [[social]]
   name = " "
