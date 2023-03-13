@@ -13,5 +13,6 @@ images: []
 <br><br>
 	<link rel="stylesheet" href="animation.css">
     <div id="text-container"></div>
-    <script src="/animation.js"></script>
+   <script src="/animation.js?v=1"></script>
+
 <br><br>
