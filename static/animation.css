@@ -1,15 +1,5 @@
 
 
-
-/* text animation */
-#text-container {
-  font-size: 20px;
-  font-family: monospace;
-  white-space: pre-line;
-  overflow: hidden;
-  text-align: left;
-}
-
 /* footer icons */ 
 
 hr {
@@ -55,4 +45,13 @@ ul.nav {
 
 .footer-links li {
   margin: 0 10px;
+}
+
+/* text animation */
+#text-container {
+  font-size: 20px;
+  font-family: monospace;
+  white-space: pre-line;
+  overflow: hidden;
+  text-align: left;
 }
