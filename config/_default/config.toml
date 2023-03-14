@@ -1,4 +1,4 @@
-baseurl = "https://tomr.pro"
+baseurl = ""
 canonifyURLs = false
 disableAliases = true
 disableHugoGeneratorInject = true
