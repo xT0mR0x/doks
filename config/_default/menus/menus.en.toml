@@ -1,24 +1,10 @@
-
-#[[main]]
-#  name = "About"
-#  url = "/about/"
-#  weight = 5
-  
-#[[main]]
-#  name = "Write-ups"
-#  url = "/blog/"
-#  weight = 20
-
-#[[main]]
-#  name = "Resources"
-#  weight = 2
-#  identifier = "get-started"
-#  url = "/docs/cheatsheets/"
-
 [[main]]
   name = "Projects"
   weight = 30
   url = "/blog/"
+
+
+## Tutorials
     
 [[main]]
   name = "Python for Security"
@@ -31,6 +17,16 @@
   weight = 50
   url = "/docs/tutorials/how/doks/intro/"
   parent = "Tutorials"
+
+[[main]]
+  name = "Secure Coding in Go"
+  weight = 40
+  url = "/docs/tutorials/gosecurity/intro/"
+  parent = "Tutorials"
+
+
+
+## Cheatsheets
 
 [[main]]
   name = "Linux Basic Commands"
@@ -55,6 +51,10 @@
   weight = 10
   url = "/docs/cheatsheets/networking/portsandprotocols/"
   parent = "Cheatsheets"
+
+
+
+## Social Links
 
 [[social]]
   name = " "

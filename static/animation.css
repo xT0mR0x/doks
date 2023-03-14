@@ -55,11 +55,3 @@ ul.nav {
   overflow: hidden;
   text-align: left;
 }
-
-#text-container1 {
-  font-size: 15px;
-  font-family: monospace;
-  white-space: pre-line;
-  overflow: hidden;
-  text-align: left;
-}

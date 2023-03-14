@@ -2,31 +2,14 @@
 title: "Introduction to Hugo"
 description: ""
 lead: ""
-date: 2023-03-05T17:59:31+02:00
-lastmod: 2023-03-05T17:59:31+02:00
 draft: false
 images: []
-menu:
-  docs:
-    parent: ""
-    identifier: "quickstart-da40f6aec24d8a285156fe22161bdf97"
 weight: 50
 toc: true
 ---
------------------------------
+<br>
 
-<style>
-  .border {
-    border: 2px solid #333;
-    border-radius: 10px;
-    padding: 10px;
-    background-color: #f7f7f7;
-    box-shadow: 0px 3px 3px #ccc;
-    width: fit-content;
-  }
-</style>
-
-<div class="border">
+<div class="img-border">
   <img src="hugo.png"/>
 </div>
 

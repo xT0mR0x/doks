@@ -85,4 +85,5 @@ And finally, we check if the script is being run as the main program using the i
 
 Congratulation! you created a socket connection 
 
- <a href="/docs/tutorials/pythonsecurity/portscanner.md/"> &rarr; Create a port scanner</a>
+<br>
+ <a href="/docs/tutorials/pythonsecurity/portscanner.md/"> Create a port scanner &rarr;</a>

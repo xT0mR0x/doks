@@ -149,4 +149,5 @@ To scan an IP address, update the ip variable in the main function:
 
 ip = '192.168.1.1'
 
- <a href="/docs/tutorials/pythonsecurity/grabber/"> &rarr; Banner reading from open ports</a>
+<br>
+ <a href="/docs/tutorials/pythonsecurity/grabber/"> Banner reading from open ports &rarr; </a>

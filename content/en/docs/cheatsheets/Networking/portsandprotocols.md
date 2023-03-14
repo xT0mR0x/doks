@@ -20,7 +20,7 @@ toc: true
 
 ---------------------------------------------
 
-| Protocol | Port | Description                                             |
+| Protocol | Port | Description                                               |
 |----------|------|---------------------------------------------------------|
 | HTTP     | 80   | Hypertext Transfer Protocol used for web browsing        |
 | HTTPS    | 443  | HTTP encrypted with SSL/TLS for secure web browsing      |

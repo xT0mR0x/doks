@@ -8,29 +8,21 @@ weight: 100
 toc: true
 ---
 
----
 
-<style>
-  .border {
-    border: 2px solid #333;
-    border-radius: 10px;
-    padding: 10px;
-    background-color: #f7f7f7;
-    box-shadow: 0px 3px 3px #ccc;
-    width: fit-content;
-  }
-</style>
 
-<div class="border">
+<br>
+<div class="img-border">
   <img src="python_logo.webp"/>
 </div>
-
+<br>
 <p style="font-family: Courier New; font-size: 50px">Python for Security</p>
 
 
----
+This tutorial was written by Tom Rosenzweig and is based on the 'Python For Security' course offered by ITproTV.
 
-*<font color="orange" >[ ! ]</font> This tutorial was written by Tom Rosenzweig and is based on the 'Python For Security' course offered by ITproTV.*
+<br>
+
+---
 
 
 
@@ -47,5 +39,6 @@ vulnerability scanning and penetration testing
 
  <font color="orange" >[ ! ]</font> You should probably have some experience with Python. you don't have to be an expert, but you should have a basic understanding, 'variables, lists, classes' and so on. Moreover, you should have some basic understanding of security principles or at least attacks that can be employed against a particular, like node or individual.
 
- <a href="/docs/tutorials/pythonsecurity/socket/"> &rarr; Create a socket connection</a>
+<br>
+ <a href="/docs/tutorials/pythonsecurity/socket/">Create a socket connection &rarr;</a>
  

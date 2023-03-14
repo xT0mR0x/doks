@@ -167,4 +167,5 @@ Here's an example of what the output might look like when this script is run:
 
 In this example, the script has discovered that port 22 is open on the target system and has successfully read the SSH banner from that port. However, when attempting to read the banner from another port, the script has encountered a timeout error.
 
- <a href="/docs/tutorials/pythonsecurity/sshbruteforce/"> &rarr; Brute forcing an SSH connection</a>
+<br>
+ <a href="/docs/tutorials/pythonsecurity/sshbruteforce/"> Brute forcing an SSH connection &rarr;</a>
