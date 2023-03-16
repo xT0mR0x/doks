@@ -1,5 +1,5 @@
 body {
-  background: rgba(230, 225, 216, 0.37);
+  background: rgb(255, 248, 240);
 }
 
 .banner .nav li {
@@ -59,7 +59,7 @@ body .navbar-brand:hover::after {
 */
 .navbar {
   z-index: 1000;
-  background-color: rgb(249, 233, 215);
+  background-color: rgba(255, 231, 180, 0.489);
   border-bottom: 1px solid $gray-200;
 
   /*
@@ -155,11 +155,11 @@ button#doks-versions {
 
 .offcanvas .nav-link:hover,
 .offcanvas .nav-link:focus {
-  color: $link-color;
+  color: rgb(38, 111, 208);
 }
 
 .offcanvas .nav-link.active {
-  color: $link-color;
+  color: blueviolet;
 }
 
 /*
@@ -172,7 +172,7 @@ button#doks-versions {
 
 .header-bar {
   border-top: 0.5px solid;
-  border-image-source: linear-gradient(90deg, #09a7bc, #b19400 50%, #09a7bc);
+  border-image-source: linear-gradient(90deg, #5b36ff, #ffd500 50%, #a114ff);
   border-image-slice: 1;
 }
 
