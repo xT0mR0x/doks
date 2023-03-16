@@ -24,7 +24,7 @@ You will find all of the logs and help you might need 👉 [here](https://github
 There is also a TryHackMe room for this assessment 👉 [here](https://tryhackme.com/room/finalassessment)
 <br><br>
 
---------------------------------------------------------------
+-----------------------------------------
 ## Summery
 
 Analysis of the sysmon.json file revealed a piece of malware, identified by its hash value of `baeb13eea3a71cfaba9d20ef373dcea69cf31f2ec21f45b83f29f699330cb3e3`, was detected on a Windows system. The malware, known as IcedID, was discovered when it created a new process, "calculator.exe," on the system. The process was launched from the command line and ran with system level privileges. 
