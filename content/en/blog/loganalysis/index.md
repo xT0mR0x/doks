@@ -1,9 +1,10 @@
 ---
-title: "Masterschool - Malware Report"
+title: "Log Analysis - Malware Report"
 description: 
 excerpt: "Log Analysis and Malware Report by Tom Rosenzweig"
 date: 2022-12-26T19:41:26+02:00
 lastmod: 2023-01-06T19:41:26+02:00
+author: ""
 draft: false
 weight: 50
 images: []
@@ -16,12 +17,11 @@ homepage: false
 ----------
 
 <br><br>
-The assessment was to create a report that will look over the activity and outline a strategy to prevent similar events. I needed to use various tools and techniques to review the logs, develop a comprehensive security policy, and make recommendations.
+The assessment was to create a report that will look over a malicious activity and outline a strategy to prevent similar events. I had to use various tools and techniques to review the logs, develop a comprehensive security policy, and make recommendations.
 
+You will find all of the logs and help you might need 👉 [here](https://github.com/LGOG/Masterschool/tree/Final-Task)
 
-👉 You will find all of the logs and help you might need [here](https://github.com/LGOG/Masterschool/tree/Final-Task)
-
-👉 There is also a TryHackMe room for this assessment [here](https://tryhackme.com/room/finalassessment)
+There is also a TryHackMe room for this assessment 👉 [here](https://tryhackme.com/room/finalassessment)
 <br><br>
 
 --------------------------------------------------------------

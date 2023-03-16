@@ -56,10 +56,10 @@ rel  = "sitemap"
   filename = "sitemap.xml"
   priority = 0.5
 
-#[taxonomies]
-#  contributor = "contributors"
-#  category = "categories"
-#  tag = "tags"
+[taxonomies]
+  contributor = "contributors"
+  category = "categories"
+  tag = "tags"
 
 [permalinks]
   blog = "/blog/:title/"
