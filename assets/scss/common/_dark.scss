@@ -41,7 +41,8 @@ $navbar-dark-active-color:          $link-color-dark;
 
 [data-dark-mode] body .btn-outline-primary {
   @include button-outline-variant($button-color-dark, $button-color-dark);
-  border:0;
+
+  border: 0;
   color: $link-color-dark;
 }
 
@@ -95,7 +96,6 @@ $navbar-dark-active-color:          $link-color-dark;
 
 [data-dark-mode] body .offcanvas .nav-link {
   color: $body-color-dark;
-  
 }
 
 [data-dark-mode] body .offcanvas .nav-link:hover,
@@ -261,7 +261,7 @@ $navbar-dark-active-color:          $link-color-dark;
 }
 
 [data-dark-mode] body .navbar .btn-link:hover {
-  color: $blue-300
+  color: $blue-300;
 }
 
 [data-dark-mode] body .navbar .btn-link:active {
@@ -327,7 +327,6 @@ $navbar-dark-active-color:          $link-color-dark;
 
 [data-dark-mode] body pre code::-webkit-scrollbar-thumb {
   background: $gray-400;
-  
 }
 
 [data-dark-mode] body code:not(.hljs) {

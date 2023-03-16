@@ -19,17 +19,17 @@ h4:hover a {
   text-decoration: none;
 }
 
+body .card {
+  background-color: rgb(249, 233, 215);
+  border: 0 solid #6f42c1;
+  color: $black;
+  transition: all 0.3s ease;
+}
+
 [data-dark-mode] body .card {
   background-color: rgba(0, 22, 43, 0.95);
   border: 0 solid #6f42c1;
   color: #fff;
-  transition: all 0.3s ease;
-}
-
-  body .card {
-  background-color: rgb(249, 233, 215);
-  border: 0 solid #6f42c1;
-  color: $black;
   transition: all 0.3s ease;
 }
 
@@ -81,16 +81,6 @@ p.meta {
   text-decoration: none;
 }
 
-
-.img-border {
-  border: 2px solid #333; 
-  border-radius: 10px;
-  padding: 10px;
-  background-color: #f7f7f7;
-  box-shadow: 0px 3px 3px #ccc;
-  width: fit-content; 
-}
-
 .table-container {
   background-color: rgb(203, 203, 203);
   border: 10px;
@@ -102,10 +92,11 @@ table {
   font-size: 20px;
 }
 
-th, td {
+th,
+td {
   text-align: left;
   padding: 10px;
-  border: 2px solid #ffffff;
+  border: 2px solid #fff;
 }
 
 th {
