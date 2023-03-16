@@ -12,11 +12,11 @@
   url = "/docs/tutorials/pythonpentesting/introduction/"
   parent = "Tutorials"
   
-#[[main]]
-#  name = "Hugo and Doks"
-#  weight = 50
-#  url = "/docs/tutorials/how/doks/intro/"
-#  parent = "Tutorials"
+[[main]]
+  name = "Hugo and Doks"
+  weight = 50
+  url = "/docs/tutorials/how/doks/intro/"
+  parent = "Tutorials"
 
 #[[main]]
 #  name = "Secure Coding in Go"
