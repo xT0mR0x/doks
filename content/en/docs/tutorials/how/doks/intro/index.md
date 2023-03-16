@@ -35,9 +35,8 @@ Hugo is designed to work well for any kind of website including blogs, tumbles, 
 
 <a href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git" target="_blank">Install Git</a>
 
---------------------------------------------------
-
 ###### You must also be comfortable working from the command line.
+
 ## Create a site
 
 Commands:

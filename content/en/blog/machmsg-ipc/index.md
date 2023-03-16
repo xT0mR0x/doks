@@ -1,7 +1,7 @@
 ---
 title: "Machmsg IPC programming (Objective C)"
 description: 
-excerpt: "Objective C server/client IPC by Tom Rosenzweig"
+excerpt: ""
 date: 2023-03-06T19:41:26+02:00
 lastmod: 2023-03-06T19:41:26+02:00
 draft: false

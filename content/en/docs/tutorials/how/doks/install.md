@@ -19,7 +19,7 @@ toc: true
 
 <!-- <img-simple src="navigation-mobile.png" alt="Navigation Mobile" class="d-block mx-auto shadow my-5" >
 <img-simple src="navigation-structure-mobile.png" alt="Navigation Structure Mobile" class="d-block mx-auto my-5 shadow" style="padding:10px" > -->
-
+<br><br>
 Full tutorial at [Doks](https://getdoks.org/) website
 
 ## What is Doks?

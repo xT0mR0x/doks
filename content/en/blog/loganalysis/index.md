@@ -1,7 +1,7 @@
 ---
 title: "Log Analysis - Malware Report"
 description: 
-excerpt: "Log Analysis and Malware Report by Tom Rosenzweig"
+excerpt: ""
 date: 2022-12-26T19:41:26+02:00
 lastmod: 2023-01-06T19:41:26+02:00
 author: ""
