@@ -6,7 +6,7 @@ date: 2023-03-06T19:41:26+02:00
 lastmod: 2023-03-06T19:41:26+02:00
 draft: false
 weight: 100
-images: [72c80fd384e13fe59401a3fc3671893c3.jpg]
+images: [objc.jpg]
 categories: ""
 tags: ""
 contributors: ""
@@ -14,6 +14,7 @@ pinned: false
 homepage: false
 ---
 
+---
 
 ## XNU Mach Message IPC
 
