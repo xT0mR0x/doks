@@ -1,5 +1,5 @@
 body {
-  background: rgba(230, 225, 216, 213);
+  background: rgba(230, 225, 216, 0.37);
 }
 
 .banner .nav li {
@@ -489,6 +489,7 @@ button#doks-versions {
   display: inline-block;
 }
 
+.navbar-light .navbar-brand,
 .navbar-light .navbar-brand:hover,
 .navbar-light .navbar-brand:active {
   color: $body-color;
