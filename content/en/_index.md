@@ -6,7 +6,7 @@ draft: false
 images: []
 ---
 
-<img src="IMG_1660 2.jpeg"  width="120" height="120" alt="Square" class="border-0 rounded-circle mr-3" style="margin-bottom: 50px;">
+<img src="IMG_1660 2.jpeg"  width="100" height="100" alt="Square" style="margin-bottom: 50px; border: 1px solid; border-radius: 100%;">
 
  -----
 
