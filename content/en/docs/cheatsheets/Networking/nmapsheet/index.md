@@ -11,8 +11,6 @@ weight: 100
 
 <h style="font-family: monospace; font-size: 15px;">
 <br><br>
-
-<link rel="stylesheet" href="animation.css">
 <div id="text-container1"></div>
    <script src="/disclaimer.js"></script>
 <br><br>

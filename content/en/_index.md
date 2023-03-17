@@ -10,11 +10,10 @@ images: []
 
  -----
 
-<br><br>
-	<link rel="stylesheet" href="animation.css">
+ <br><br>
     <div id="text-container"></div>
-   <script src="/animation.js?v=2"></script>
+   <script src="/animation.js"></script>
 <br><br>
 
---------------------
+
 
