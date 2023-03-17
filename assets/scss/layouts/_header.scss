@@ -1,5 +1,5 @@
 body {
-  background: rgb(255, 248, 240);
+  background: rgb(253, 255, 255);
 }
 
 .banner .nav li {
@@ -19,11 +19,12 @@ body {
 }
 
 body .navbar-brand {
-  background: #000;
+  background: #3c3c3c;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   transition: all 0.3s ease;
   position: relative;
+  font-size: small;
 }
 
 body .navbar-brand:hover {
@@ -35,8 +36,6 @@ body .navbar-brand::after {
   display: block;
   height: 2px;
   width: 0;
-  background: $purple;
-  transition: width 0.3s ease;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -59,7 +58,7 @@ body .navbar-brand:hover::after {
 */
 .navbar {
   z-index: 1000;
-  background-color: rgba(255, 223, 180, 0.875);
+  background-color: rgb(237, 237, 237);
   border-bottom: 1px solid $gray-200;
 
   /*
@@ -172,7 +171,7 @@ button#doks-versions {
 
 .header-bar {
   border-top: 0.5px solid;
-  border-image-source: linear-gradient(90deg, #5b36ff, #ffd500 50%, #a114ff);
+  border-image-source: linear-gradient(90deg, #000000, #000000 50%, #000000);
   border-image-slice: 1;
 }
 

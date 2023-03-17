@@ -82,7 +82,7 @@ $navbar-dark-active-color:          $link-color-dark;
 
 [data-dark-mode] body .navbar,
 [data-dark-mode] body .doks-subnavbar {
-  background-color: rgba(0, 22, 43, 0.95);
+  background-color: hsla(240, 10%, 8%, 0.95);
   border-bottom: 1px solid $border-dark;
 }
 
@@ -108,7 +108,7 @@ $navbar-dark-active-color:          $link-color-dark;
 }
 
 [data-dark-mode] body .navbar-brand {
-  background: #fff;
+  background: #d8d8d8;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   transition: all 0.3s ease;
@@ -124,8 +124,6 @@ $navbar-dark-active-color:          $link-color-dark;
   display: block;
   height: 2px;
   width: 0;
-  background: $blue-300;
-  transition: width 0.3s ease;
   position: absolute;
   bottom: 0;
   left: 0;
