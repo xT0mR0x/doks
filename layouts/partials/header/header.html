@@ -8,18 +8,16 @@
 
 <div class="header-bar"></div>
 
-<header class="navbar navbar-expand-lg navbar-light doks-navbar" style="border-bottom: 0.1px solid rgba(43, 43, 43, 0.95); padding-right: -20px;">
+<header class="navbar navbar-expand-lg navbar-light doks-navbar" style="border-bottom: 0.1px solid rgba(43, 43, 43, 0.95);">
   <nav class="container-{{ if .Site.Params.options.fullWidth }}fluid{{ else }}xxl{{ end }} flex-wrap flex-lg-nowrap" aria-label="Main navigation">
     
     <a class="navbar-brand order-0" style="font-size: 14px; padding: 20px; font-weight: 400; font-family: 'Roboto', sans-serif;" href="{{ .Site.BaseURL | relLangURL }}">
-      <svg width="150" height="50" viewBox="30 5 50 50" xmlns="http://www.w3.org/2000/svg">
-        <text x="90" y="35" font-size="18" fill="#8B0000" text-anchor="end">tomr</text>
-        <text x="90" y="35" font-size="18" text-anchor="start" class="pro-text">.pro</text>
+      <svg width="150" height="50" viewBox="80 5 50 50" xmlns="http://www.w3.org/2000/svg">
+        <text x="90" y="35" font-size="22" fill="#8B0000" text-anchor="end">tomr</text>
+        <text x="90" y="35" font-size="22" text-anchor="start" class="pro-text">.pro</text>
       </svg>
     </a>
     
-    
-
     {{ if (in .Site.Params.sections.sectionNav .Section) -}}
     <button class="btn btn-link order-0 ms-auto d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-more-horizontal"><circle cx="12" cy="12" r="1"></circle><circle cx="19" cy="12" r="1"></circle><circle cx="5" cy="12" r="1"></circle></svg>
@@ -47,7 +45,10 @@
     <div class="offcanvas offcanvas-end border-0 py-lg-1" tabindex="-1" id="offcanvasDoks" data-bs-backdrop="true" aria-labelledby="offcanvasDoksLabel">
       <div class="header-bar d-lg-none"></div>
       <div class="offcanvas-header d-lg-none">
-        <h2 class="h5 offcanvas-title ps-2" id="offcanvasDoksLabel"><a class="text-dark" href="{{ "/" | relLangURL }}">{{ .Site.Params.Title }}</a></h2>
+        <h2 class="h5 offcanvas-title ps-2" id="offcanvasDoksLabel"><a class="text-dark" href="{{ "/" | relLangURL }}"><svg width="150" height="50" viewBox="80 5 50 50" xmlns="http://www.w3.org/2000/svg">
+          <text x="90" y="35" font-size="22" fill="#8B0000" text-anchor="end">tomr</text>
+          <text x="90" y="35" font-size="22" text-anchor="start" class="pro-text">.pro</text>
+        </svg></a></h2>
         <button type="button" class="btn-close text-reset me-2" data-bs-dismiss="offcanvas" aria-label="Close main menu"></button>
       </div>
       <div class="offcanvas-body p-4 p-lg-0">

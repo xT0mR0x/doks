@@ -3,6 +3,10 @@
   weight = 30
   url = "/blog/"
 
+[[main]]
+  name = "About"
+  weight = 25
+  url = "/about/"
 
 ## Tutorials
     
@@ -52,7 +56,17 @@
   url = "/docs/cheatsheets/networking/portsandprotocols/"
   parent = "Cheatsheets"
 
+[[main]]
+  name = "Red Team Toolkit"
+  weight = 25
+  url = "/docs/cheatsheets/red-team/redtoolkit/"
+  parent = "Cheatsheets"
 
+[[main]]
+  name = "Sql Injection"
+  weight = 30
+  url = "/docs/cheatsheets/red-team/sqli/"
+  parent = "Cheatsheets"
 
 ## Social Links
 

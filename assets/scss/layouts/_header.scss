@@ -12,6 +12,7 @@ body {
 
 .navbar-text {
   margin-left: 1rem;
+  position: relative;
 }
 
 .navbar-brand {
@@ -100,7 +101,7 @@ body .navbar-brand:hover::after {
 }
 
 .nav-item {
-  margin-left: 0;
+  margin-left: -6px;
 }
 
 @include media-breakpoint-up(md) {
@@ -168,7 +169,7 @@ button#doks-versions {
 }
 
 .offcanvas .nav-link.active {
-  color: blueviolet;
+  color: rgb(0, 0, 0);
 }
 
 /*
@@ -181,7 +182,7 @@ button#doks-versions {
 
 .header-bar {
   border-top: 0.5px solid;
-  border-image-source: linear-gradient(90deg, #000000, #000000 50%, #000000);
+  border-image-source: linear-gradient(90deg, #000, #000 50%, #000);
   border-image-slice: 1;
 }
 
@@ -532,4 +533,3 @@ button#doks-versions {
     padding-left: 0.5rem;
   }
 }
-
