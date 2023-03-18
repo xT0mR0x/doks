@@ -45,6 +45,16 @@ body .navbar-brand:hover::after {
   width: 100%;
 }
 
+.pro-text {
+  fill: #0c0022; /* default color */
+}
+
+[data-dark-mode] {
+  .pro-text {
+    fill: #cdcdcd; /* white color for dark mode */
+  }
+}
+
 /*
 .navbar-light .navbar-brand,
 .navbar-light .navbar-brand:hover,
@@ -522,3 +532,4 @@ button#doks-versions {
     padding-left: 0.5rem;
   }
 }
+

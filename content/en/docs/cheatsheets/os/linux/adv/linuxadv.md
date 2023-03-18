@@ -13,8 +13,6 @@ toc: true
 <h style="font-family: monospace; font-size: 15px;">
 <br><br>
 
-The information provided is a compilation of various resources, including but not limited to online articles, and the assistance of ChatGPT, an AI language model trained by OpenAI. I take great care to ensure that I do not use any copyrighted material without the appropriate permissions and I always use open resources whenever possible. <br><br> While every effort has been made to ensure the accuracy and completeness of the information, I make no guarantee or warranty, express or implied, as to the accuracy, reliability, or completeness of this information. Any reliance you place on such information is therefore strictly at your own risk.<br><br>
-
 ---------------------------
 
 ## Users and Groups
