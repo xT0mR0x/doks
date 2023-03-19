@@ -1,11 +1,19 @@
 ---
-title: "Port Scanner and Grabber"
-description: ""
-lead: ""
+title: "Python Scanner"
+description: 
+excerpt: "Port Scanner written in Python"
+date: 2022-11-02T19:41:26+02:00
+lastmod: 2023-03-06T19:41:26+02:00
 draft: false
+weight: 100
 images: []
-weight: 120
-toc: true
+categories: ""
+tags: ""
+contributors: ""
+pinned: false
+homepage: false
+---
+
 ---
 
 <br>

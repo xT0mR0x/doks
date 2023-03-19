@@ -1,5 +1,32 @@
 table {
   @extend .table;
-
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 20px;
+  background-color: rgb(255, 255, 255);
   margin: 3rem 0;
+}
+
+.table-container {
+  background-color: rgb(203, 203, 203);
+  border: 10px;
+}
+
+th,
+td {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f7f7f7;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+  }
+  
+  td:hover {
+  background-color: #ffffff75;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+
+th {
+  background-color: #f2f2f2;
 }

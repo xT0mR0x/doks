@@ -98,7 +98,7 @@ Once the input validation has been bypassed, the attacker can proceed to executi
 
 ### General syntax: 
   
-      sqlmap.py -u [target_URL] -p [parameter] [option]
+      sqlmap -u [target_URL] -p [parameter] [option]
 
 ### Basic options:
     
@@ -227,18 +227,14 @@ Establish an interactive shell between the remote client and the web application
 
 ## Preventing SQL injection
 
-The best way to protect against SQL injection is to never put user-supplied input directly into an SQL query. Instead, use parameterized queries, which escape potentially malicious characters, and use the appropriate data types for user-supplied input (e.g. numeric values should be validated as such).
-<br><br>
-Furthermore, proper authentication and authorization should be implemented, to ensure that only users with the correct privileges can access sensitive resources.
+The best way to protect against SQL injection is to never put user-supplied input directly into an SQL query. Instead, use parameterized queries, which escape potentially malicious characters, and use the appropriate data types for user-supplied input (e.g. numeric values should be validated as such).Furthermore, proper authentication and authorization should be implemented, to ensure that only users with the correct privileges can access sensitive resources.
 
-1. [Static Code Analysis](https://infosec.mozilla.org/guidelines/web_security#static-code-analysis): Reads the code, logs, and configuration files to check for vulnerable inputs. 
+More Resources for SQL injection prevention:
 
-2. [Penetration Testing](https://www.owasp.org/index.php/Penetration_Testing): Simulate an attack on the web application to identify potential inputs that could be exploited. 
+[Infosec Mozilla](https://infosec.mozilla.org/guidelines/web_security#web-security-cheat-sheet)
 
-3. [Input Validation Techniques](https://www.owasp.org/index.php/Input_Validation_Cheat_Sheet): This Validating the user inputs to ensure that all the data is of the correct type and not malicious.
+[OWASP top 10](https://owasp.org/www-community/attacks/SQL_Injection)
 
-4. [Data Sanitization Techniques](https://www.halfaker.com/blog/data-sanitization-four-basic-approaches/): Making sure the data entered is properly formatted and no malicious code is present in the data.
+<br>
 
-5. [Blacklisting and Whitelisting](https://www.ptsecurity.com/ww-en/about/blog/blacklisting-and-whitelisting/): Keeping an updated list of known malicious codes and blocking them from being accessed and/or providing access to only the known good codes.
-
-For more information plesae check out: [OWASP-top-10](https://owasp.org/www-community/attacks/SQL_Injection)
+---

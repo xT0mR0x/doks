@@ -10,22 +10,22 @@
 
 ## Tutorials
     
-[[main]]
-  name = "Python for Pentesting"
-  weight = 45
-  url = "/docs/tutorials/pythonpentesting/introduction/"
-  parent = "Tutorials"
+#[[main]]
+#  name = "Python for Pentesting"
+#  weight = 45
+#  url = "/docs/tutorials/pythonpentesting/introduction/"
+#  parent = "Tutorials"
   
-[[main]]
-  name = "Hugo and Doks"
-  weight = 50
-  url = "/docs/tutorials/how/doks/intro/"
-  parent = "Tutorials"
+#[[main]]
+#  name = "Hugo and Doks"
+#  weight = 50
+#  url = "/docs/tutorials/how/doks/intro/"
+#  parent = "Tutorials"
 
 #[[main]]
-#  name = "Secure Coding in Go"
+#  name = "Go for Pentesting"
 #  weight = 40
-#  url = "/docs/tutorials/gosecurity/intro/"
+#  url = "/docs/tutorials/gopentesting/intro/"
 #  parent = "Tutorials"
 
 
