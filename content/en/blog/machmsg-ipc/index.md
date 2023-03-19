@@ -125,7 +125,8 @@ The **`receive_msg()`** routine takes two arguments: a **`mach_port_name_t`** wh
 		return ret;
 	}
 
-### This is a part of the handling that saves incoming messages to a file on the server's disk:
+
+This is a part of the handling that saves incoming messages to a file on the server's disk:
 
 The first section of the code gets access to the file directory that contains the saved data. It creates an instance of the NSFileManager class and uses the NSSearchPathForDirectoriesInDomains method to get an array of directory paths. Then, it saves the first element of the array, which is the path to the documents directory, in the documentsDirectoryPath variable.
 

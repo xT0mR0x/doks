@@ -20,10 +20,11 @@ homepage: false
 
 ## Overview
 
-This is a simple Golang program that performs port scanning and grabbing of a specified host. The program can either scan a range of ports or all available ports. It also uses multiple threads to scan the ports concurrently, increasing the efficiency of the scanning process.
+This is a simple Golang program that performs port scanning and grabbing of a specified host.
+you can download from GitHub --> [here](https://github.com/xT0mR0x/Go_Pentesting/tree/main/GoScanner)
 
 
-We uses the following packages:
+Builtin packages:
 
 
 `"flag"` package to parse command line arguments
@@ -38,7 +39,7 @@ We uses the following packages:
 
 `"sync"` package to synchronize goroutines
 
-We start by importing the necessary packages and defining two types to indicate whether to scan a range of ports or all ports.
+Start by importing the necessary packages and defining two types to indicate whether to scan a range of ports or all ports.
 
     package main
 
