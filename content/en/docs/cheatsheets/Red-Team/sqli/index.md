@@ -23,7 +23,7 @@ weight: 50
 This type of SQL injection is where an attacker appends additional malicious SQL statements to an existing query to gain unauthorized access to a database.
 An example of this type of attack would be: 
   
-    SELECT * FROM users WHERE username = 'admin' UNION SELECT * FROM passwords. 
+    SELECT * FROM users WHERE username = 'admin' UNION SELECT * FROM passwords
 
 ### Boolean-Based Injection
 
