@@ -35,7 +35,6 @@ The information provided is a compilation of various resources, including but no
 | RDP      | 3389 | Remote Desktop Protocol used for remote access to desktop |
 | SIP      | 5060 | Session Initiation Protocol used for VoIP communication   |
 | RTP      | 16384-32767 | Real-time Transport Protocol used for media streaming |
-| SSH      | 22   | Secure Shell used for secure remote access and file transfer|
 | SFTP     | 22   | Secure File Transfer Protocol used for secure file transfer|
 | SMTPS    | 465  | SMTP encrypted with SSL/TLS for secure email transmission|
 | IMAPS    | 993  | IMAP encrypted with SSL/TLS for secure email retrieval   |

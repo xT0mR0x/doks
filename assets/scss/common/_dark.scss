@@ -100,7 +100,7 @@ $navbar-dark-active-color:          $link-color-dark;
 
 [data-dark-mode] body .offcanvas .nav-link:hover,
 [data-dark-mode] body .offcanvas .nav-link:focus {
-  color: $blue-300;
+  color: $purple;
 }
 
 [data-dark-mode] body .offcanvas .nav-link.active {
@@ -116,7 +116,7 @@ $navbar-dark-active-color:          $link-color-dark;
 }
 
 [data-dark-mode] body .navbar-brand:hover {
-  -webkit-text-fill-color: $blue-300;
+  -webkit-text-fill-color: $purple;
 }
 
 [data-dark-mode] body .navbar-brand::after {
@@ -212,7 +212,7 @@ $navbar-dark-active-color:          $link-color-dark;
 
 [data-dark-mode] body .btn-toggle[aria-expanded="true"] {
   color: $body-color-dark;
-  color: $blue-300;
+  color: $purple;
 }
 
 [data-dark-mode] body .btn-toggle[aria-expanded="true"]::before {
@@ -259,7 +259,7 @@ $navbar-dark-active-color:          $link-color-dark;
 }
 
 [data-dark-mode] body .navbar .btn-link:hover {
-  color: $blue-300;
+  color: $purple;
 }
 
 [data-dark-mode] body .navbar .btn-link:active {
