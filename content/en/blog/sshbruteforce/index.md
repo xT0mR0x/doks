@@ -1,7 +1,7 @@
 ---
 title: "Python SSH Bruteforcer"
 description: 
-excerpt: "Port Scanner written in Python"
+excerpt: "SSH Bruteforce written in Python"
 date: 2022-11-03T19:41:26+02:00
 lastmod: 2023-03-06T19:41:26+02:00
 draft: false

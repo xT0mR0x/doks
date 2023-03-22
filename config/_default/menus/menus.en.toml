@@ -29,6 +29,14 @@
 #  parent = "Tutorials"
 
 
+## Writeups
+
+[[main]]
+  name = "THM | Boiler CTF"
+  weight = 15
+  url = "/docs/writeups/thm/boilerctf/"
+  parent = "Writeups"
+
 
 ## Cheatsheets
 
