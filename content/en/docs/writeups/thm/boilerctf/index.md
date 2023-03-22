@@ -13,7 +13,7 @@ images: []
 
 **Method**
 
-first of all, let's starts with an nmap scan. 
+First of all, let's starts with an nmap scan. 
 
     nmap -sC -sV -p- 10.10.190.117
 
@@ -227,7 +227,7 @@ By viewing the questions we know that we need to find the root.txt.
 Let's use the `find` command to see the path of the file.
 
     find / -name root.txt
-    cat root/root.txt
+    cat /root/root.txt
 
 ![](ssh5.png)
 
