@@ -1,20 +1,29 @@
 {{ define "main" }}
 <div class="row justify-content-center">
 	<div class="col-md-12 col-lg-10 col-xl-8">
+		
+		<br>
+		<h4>Archive</h4>
+		
 		<article>
 			<div class="text-center">{{ .Content }}</div>
 			<div class="card-list">
-		
 				<div class="row"> 
 					<div class="col-lg">
 						<div class="card my-3">
 							<div class="card-body">
 								<h5 class="card-title">Red Team</h5>
 								<a href="/docs/cheatsheets/red-team/redtoolkit/">Toolkit</a><br>
-								<a href="/docs/cheatsheets/networking/nmapsheet/">Nmap Cheatsheet</a>
+								<a href="/docs/cheatsheets/red-team/nmapsheet/">Nmap Cheatsheet</a>
 							</div>
 						</div>
-
+						
+						<div class="card my-3">
+							<div class="card-body">
+								<h5 class="card-title">Blue Team</h5>
+								<a href="/docs/cheatsheets/blue-team/toolkit/">Toolkit</a>
+							</div>
+						</div>
 						<div class="card my-3">
 							<div class="card-body">
 								<h5 class="card-title">Networking</h5>
@@ -64,9 +73,10 @@
 						</div>
 					</div>
 				</div>
-
 			</div>
 		</article>
 	</div>
 </div>
+<br>
+<br>
 {{ end }}

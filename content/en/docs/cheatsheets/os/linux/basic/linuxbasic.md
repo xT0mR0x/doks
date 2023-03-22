@@ -1,5 +1,5 @@
 ---
-title: "Basic Commands"
+title: "Basic Linux Commands"
 description: ""
 lead: ""
 date: 2022-01-25T14:41:39+01:00

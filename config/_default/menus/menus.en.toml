@@ -54,8 +54,8 @@
 
 [[main]]
   name = "Nmap Cheatsheet"
-  weight = 5
-  url = "/docs/cheatsheets/networking/nmapsheet/"
+  weight = 50
+  url = "/docs/cheatsheets/red-team/nmapsheet/"
   parent = "Cheatsheets"
 
 [[main]]
@@ -65,9 +65,15 @@
   parent = "Cheatsheets"
 
 [[main]]
-  name = "Red Team Toolkit"
+  name = "Red Team | Tools"
   weight = 25
   url = "/docs/cheatsheets/red-team/redtoolkit/"
+  parent = "Cheatsheets"
+
+[[main]]
+  name = "Blue Team | Tools"
+  weight = 23
+  url = "docs/cheatsheets/blue-team/toolkit/"
   parent = "Cheatsheets"
 
 [[main]]
