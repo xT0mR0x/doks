@@ -52,7 +52,7 @@ To answer the first question we need to log in to the FTP server, via anonymous 
 <br><br>
 
 We can see the file extantion for the first question.<br>
-and this text: "Whfg jnagrq gb frr vs lbh svaq vg. Yby. Erzrzore: Rahzrengvba vf gur xrl!" <br> that just ment to throw you off. you can decrypt it with ROT 13:<br> 
+and this text: "Whfg jnagrq gb frr vs lbh svaq vg. Yby. Erzrzore: Rahzrengvba vf gur xrl!" <br> it's meant to throw you off. you can decrypt it with ROT 13:<br> 
 <br><br>
 
 ![CyberChef](rot13.png) --> [CyberChef](https://gchq.github.io/CyberChef/)
