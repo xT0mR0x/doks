@@ -20,26 +20,26 @@ h4:hover a {
 }
 
 body .card {
-  background-color: #f5f5f5;
+  background-color: #ffffff;
   border: 1px solid #e5e5e5;
   color: #000;
   transition: all 0.3s ease;
 }
 
 body .card:hover {
-  background-color: #f3f9ff9d;
+  background-color: transperent;
   transform: translateY(-5px);
 }
 
 [data-dark-mode] body .card {
   background-color: hsla(240, 10%, 8%, 0.95);
-  border: 0 solid #6f42c1;
+  border: 0.1px solid transperent;
   color: #fff;
   transition: all 0.3s ease;
 }
 
 [data-dark-mode] body .card:hover {
-  background-color: rgba(143, 109, 46, 0.428);
+  background-color: transperent;
   transform: translateY(5px);
 }
 

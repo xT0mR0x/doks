@@ -1,5 +1,5 @@
 body {
-  background: rgb(253, 255, 255);
+  background: rgb(243, 243, 247);
 }
 
 .banner .nav li {
@@ -50,9 +50,19 @@ body .navbar-brand:hover::after {
   fill: #0c0022; /* default color */
 }
 
+.tomr-text {
+  fill: #006eff; /* default color */
+}
+
 [data-dark-mode] {
   .pro-text {
-    fill: #cdcdcd; /* white color for dark mode */
+  fill: #cdcdcd; /* white color for dark mode */
+  }
+}
+
+[data-dark-mode] {
+  .tomr-text {
+    fill: #006eff; /* white color for dark mode */
   }
 }
 
@@ -69,7 +79,7 @@ body .navbar-brand:hover::after {
 */
 .navbar {
   z-index: 1000;
-  background-color: rgb(237, 237, 237);
+  background-color: rgb(255, 255, 255);
   border-bottom: 1px solid $gray-200;
 
   /*
