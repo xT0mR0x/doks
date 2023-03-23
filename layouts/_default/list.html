@@ -7,12 +7,12 @@
   </div>
 </div>
 <div class="row justify-content-center">
-	<div class="col-md-12 col-lg-10 col-xl-8">
+	<div class="col-md-12 col-lg-12 col-xl-8">
 		<article>
 			<div class="text-center">{{ .Content }}</div>
       </article>
   </div>
-<div class=" col-md-12 col-lg-10 row row-cols-2 row-cols-lg-2 g-lg-10">
+<div class=" col-md-12 col-lg-10 row row-cols-1 row-cols-lg-2 g-lg-10">
   {{ $paginator := .Paginate (.Data.Pages) -}}
   {{ range $paginator.Pages -}}
   <div class="col">

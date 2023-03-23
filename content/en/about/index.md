@@ -6,7 +6,7 @@ images: []
 
 <br><br>
 <div style="text-align: left;">
-  <img src="12.png" style="width: 18%; border: 1px solid #000; border-radius: 40%; padding-left;">
+  <img src="12.png" style="width: 18%; border: 1px solid #000; border-radius: 10%; padding-left;">
 </div>
 <br>
 
