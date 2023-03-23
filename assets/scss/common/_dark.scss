@@ -23,7 +23,7 @@ $navbar-dark-active-color:          $link-color-dark;
 /** Theme styles */
 
 [data-dark-mode] body {
-  background: hsla(240, 10%, 8%, 0.95);
+  background-image: linear-gradient(to bottom, #000000, #131120);
   color: $body-color-dark;
 }
 
@@ -346,8 +346,8 @@ $navbar-dark-active-color:          $link-color-dark;
 }
 
 [data-dark-mode] body .footer {
-  border-top: 0px solid $border-dark;
-  background-color: hsla(250, 12%, 10%, 0.95)
+  border-top: 0px;
+  background-image: linear-gradient(to top, #000000,  #0e0c18);
 }
 
 [data-dark-mode] body .docs-links,
@@ -444,8 +444,8 @@ $navbar-dark-active-color:          $link-color-dark;
 }
 
 [data-dark-mode] body .alert-primary {
-  background:#150d23;
-  color: beige;
+  background:rgba(12, 12, 14, 0.95);
+  color: rgb(255, 255, 255);
 }
 
 [data-dark-mode] body .figure-caption {

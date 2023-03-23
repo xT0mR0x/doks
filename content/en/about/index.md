@@ -4,12 +4,13 @@ draft: false
 images: []
 ---
 
+<br><br>
 <div style="text-align: left;">
-  <img src="12.png" style=" width: 16%; border: 1px solid #000; border-radius: 100%; padding-left;">
+  <img src="12.png" style="width: 18%; border: 1px solid #000; border-radius: 40%; padding-left;">
 </div>
 <br>
 
- -----
+<hr style="color: #006492;">
 
  <!-- <br><br>
     <div id="text-container"></div>

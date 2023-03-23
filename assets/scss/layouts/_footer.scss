@@ -1,12 +1,10 @@
 .footer {
-  border-top: 1px solid $gray-200;
-  padding-top: 3rem;
   padding-bottom: 3rem;
-  background-color: rgb(255, 255, 255);
+  background-image: linear-gradient(to top, rgb(255, 255, 255), rgb(247, 247, 252));
 }
 
 .footer ul {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 .footer li {

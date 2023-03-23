@@ -1,7 +1,8 @@
 {{ define "main" }}
 <div class="row justify-content-center">
-  <div class="col-md-12 col-lg-9">
-    <h1 class="text-center">{{ .Title }}</h1>
+  <div class="col-md-12 col-lg-10">
+    <h1 class="text-center">Projects</h1>
+    <hr style="color: #006492;">
     {{ with .Content -}}<div class="text-center">{{ . }}</div>{{ end -}}
   </div>
 </div>
@@ -9,7 +10,9 @@
 	<div class="col-md-12 col-lg-10 col-xl-8">
 		<article>
 			<div class="text-center">{{ .Content }}</div>
-<div class="row row-cols-1 row-cols-lg-2 g-lg-20">
+      </article>
+  </div>
+<div class=" col-md-12 col-lg-10 row row-cols-2 row-cols-lg-2 g-lg-10">
   {{ $paginator := .Paginate (.Data.Pages) -}}
   {{ range $paginator.Pages -}}
   <div class="col">

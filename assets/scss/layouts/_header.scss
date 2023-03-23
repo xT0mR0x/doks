@@ -1,5 +1,5 @@
 body {
-  background: rgb(243, 243, 247);
+  background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgb(243, 243, 247));
 }
 
 .banner .nav li {
@@ -191,8 +191,8 @@ button#doks-versions {
 */
 
 .header-bar {
-  border-top: 0.5px solid;
-  border-image-source: linear-gradient(90deg, #000, #000 50%, #000);
+  border-top:thin solid;
+  border-image-source: linear-gradient(90deg, #000000, #000000 50%, #000000);
   border-image-slice: 1;
 }
 
