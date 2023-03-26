@@ -13,7 +13,7 @@ draft: false
 
 <div class="card my-3">
 <div class="card-body">
-    <a href="/docs/resources/it/">IT Operations</a><br>
+    <a href="/docs/general-resources/it/">IT Operations</a><br>
 </div>
 </div>
 
