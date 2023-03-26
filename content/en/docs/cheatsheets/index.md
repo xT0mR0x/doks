@@ -17,7 +17,7 @@ weight: 5
     <div class="card my-3">
         <div class="card-body">
             <h5 class="card-title">Red Team</h5>
-            <a href="/docs/cheatsheets/red-team/resources/">Resources</a><br>
+            <a href="/docs/cheatsheets/red-team/redsources/">Resources</a><br>
             <a href="/docs/cheatsheets/red-team/redtoolkit/">Toolkit</a><br>
             <a href="/docs/cheatsheets/red-team/nmapsheet/">Nmap Cheatsheet</a><br>
                <a href="/docs/cheatsheets/red-team/sqli/">SQL injection</a>
