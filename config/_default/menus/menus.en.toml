@@ -8,6 +8,15 @@
   weight = 25
   url = "/about/"
 
+
+## Resources
+
+[[main]]
+  name = "Resources"
+  weight = 45
+  url = "/docs/resources/"
+
+
 ## Tutorials
     
 #[[main]]
@@ -32,55 +41,18 @@
 ## Writeups
 
 [[main]]
-  name = "THM | Boiler CTF"
-  weight = 15
-  url = "/docs/writeups/thm/boilerctf/"
-  parent = "Writeups"
+  name = "Write-ups"
+  weight = 40
+  url = "/docs/writeups/"
+
 
 
 ## Cheatsheets
 
 [[main]]
-  name = "Linux Basic Commands"
-  weight = 15
-  url = "/docs/cheatsheets/os/linux/basic/linuxbasic/"
-  parent = "Cheatsheets"
-
-[[main]]
-  name = "Linux Advanced Commands"
-  weight = 20
-  url = "/docs/cheatsheets/os/linux/adv/linuxadv/"
-  parent = "Cheatsheets"
-
-[[main]]
-  name = "Nmap Cheatsheet"
-  weight = 50
-  url = "/docs/cheatsheets/red-team/nmapsheet/"
-  parent = "Cheatsheets"
-
-[[main]]
-  name = "Ports and Protocols"
-  weight = 10
-  url = "/docs/cheatsheets/networking/portsandprotocols/"
-  parent = "Cheatsheets"
-
-[[main]]
-  name = "Red Team | Tools"
-  weight = 25
-  url = "/docs/cheatsheets/red-team/redtoolkit/"
-  parent = "Cheatsheets"
-
-[[main]]
-  name = "Blue Team | Tools"
-  weight = 23
-  url = "docs/cheatsheets/blue-team/toolkit/"
-  parent = "Cheatsheets"
-
-[[main]]
-  name = "Sql Injection"
-  weight = 30
-  url = "/docs/cheatsheets/red-team/sqli/"
-  parent = "Cheatsheets"
+  name = "Cheatsheets"
+  weight = 35
+  url = "/docs/cheatsheets/"
 
 ## Social Links
 

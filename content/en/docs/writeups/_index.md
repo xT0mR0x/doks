@@ -1,5 +1,5 @@
 ---
-title : "Writeups" 
+title : "Write-ups" 
 draft: false
 images: []
 ---

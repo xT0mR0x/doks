@@ -7,7 +7,7 @@ lastmod: 2023-01-06T19:41:26+02:00
 author: ""
 draft: false
 weight: 50
-images: [72c80fd384e13fe59401a3fc3671893c.jpg]
+images: []
 categories: ""
 tags: ""
 contributors: ""
@@ -50,7 +50,7 @@ more details -> [VirusTotal](https://www.virustotal.com/gui/file/baeb13eea3a71cf
 <br>
 <br>
 
-<img src="mygraph.png">~ Created with <a href="https://www.diagrams.net/" target="_blank">Diagrams</a>.
+<img src="mygraph.png" width=100%>~ Created with <a href="https://www.diagrams.net/" target="_blank">Diagrams</a>.
 
 --------------------------------------------------------------------------------
 

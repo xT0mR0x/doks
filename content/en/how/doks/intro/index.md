@@ -9,9 +9,9 @@ toc: false
 ---
 <br>
 
-<div class="img-border">
-  <img src="hugo.png"/>
-</div>
+
+  <img src="hugo.png" width=100%>
+
 
 ## What is Hugo?
 

@@ -82,3 +82,14 @@ weight: 50
 * [forkatz](https://github.com/GhostPack/Seatbelt)
 * [Pypykatz](https://github.com/skelsec/pypykatz)
 * [nanodump](https://github.com/lokijku/nanodump)
+
+---
+
+## Specials
+
+* [Nginxpwner](https://github.com/stark0de/nginxpwner)
+
+**Source:** [https://www.blackhatethicalhacking.com/tools/nginxpwner/](https://www.blackhatethicalhacking.com/tools/nginxpwner/)
+
+Nginxpwner is written by stark0de and its an automated tool written in Python that can be used to scan a web server running the nginx web server software for misconfigurations and vulnerabilities. The tool uses a variety of techniques to identify misconfigurations and vulnerabilities, such as looking for files with default or weak permissions, searching for backup files, and checking for common server configuration mistakes. Once the tool identifies a vulnerability, it attempts to exploit it by running a variety of pre-configured attacks against the server, such as using a local file inclusion (LFI) vulnerability to retrieve sensitive files or attempting to execute arbitrary code on the server.<br><br>
+It can also be used to perform reconnaissance on a target server, such as identifying the operating system and web server software in use. It is important to note that while the tool can be useful for identifying potential security issues on a web server, it should only be used on systems that you have explicit permission to test.

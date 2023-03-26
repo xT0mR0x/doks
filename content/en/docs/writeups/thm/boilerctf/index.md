@@ -7,6 +7,10 @@ images: []
 # Boiler CTF
  Intermediate level CTF
 
+**by Tom Rosenzweig**
+
+---
+
 ## Questions #1
 
 ## File extension after anon login

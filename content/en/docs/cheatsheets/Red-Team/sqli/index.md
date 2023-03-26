@@ -92,6 +92,21 @@ Once the input validation has been bypassed, the attacker can proceed to executi
 
 * [Inviciti](https://www.invicti.com/blog/web-security/sql-injection-cheat-sheet/)
 
+
+### Bypassing Email Filter which leads to SQL Injection
+
+🔗 Source :
+[Dimaz Arno](https://dimazarno.medium.com/bypassing-email-filter-which-leads-to-sql-injection-e57bcbfc6b17)
+
+
+<img src="5.png" width=100%>
+
+### Blind Sql fresh payloads
+
+    "0"XOR(if(now()=sysdate()%2Csleep(6)%2C0))XOR"Z"
+
+more coming soon..
+
 ---
 
 ## Sqlmap   
@@ -229,12 +244,13 @@ Establish an interactive shell between the remote client and the web application
 
 The best way to protect against SQL injection is to never put user-supplied input directly into an SQL query. Instead, use parameterized queries, which escape potentially malicious characters, and use the appropriate data types for user-supplied input (e.g. numeric values should be validated as such).Furthermore, proper authentication and authorization should be implemented, to ensure that only users with the correct privileges can access sensitive resources.
 
-More Resources for SQL injection prevention:
+Resources for SQL injection prevention:
 
-[Infosec Mozilla](https://infosec.mozilla.org/guidelines/web_security#web-security-cheat-sheet)
+ --> [Infosec Mozilla](https://infosec.mozilla.org/guidelines/web_security#web-security-cheat-sheet)
 
-[OWASP top 10](https://owasp.org/www-community/attacks/SQL_Injection)
+ --> [OWASP top 10](https://owasp.org/www-community/attacks/SQL_Injection)
 
 <br>
 
 ---
+
