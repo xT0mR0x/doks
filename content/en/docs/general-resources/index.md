@@ -9,7 +9,7 @@ draft: false
 
 # RESOURCES
 
-<img src="resources.png" width=70%>
+<img src="resources.png" width=30%>
 
 <div class="card my-3">
 <div class="card-body">

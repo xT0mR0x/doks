@@ -9,7 +9,7 @@ weight: 5
 
 # CHEATSHEETS
 
-<img src="cheatsheets.png" width=70%>
+<img src="cheatsheets.png" width=30%>
 
 
 <div class="row"> 
