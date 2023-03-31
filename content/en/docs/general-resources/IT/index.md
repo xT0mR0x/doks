@@ -1,5 +1,5 @@
 ---
-title: "IT Operations"
+title: "Python for Cloud Managing (AWS)"
 description: ""
 lead: ""
 draft: false

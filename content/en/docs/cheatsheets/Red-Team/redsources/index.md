@@ -56,3 +56,22 @@ Github repository By ryh04x**
  - Physical Security (20)
 
 #### Link: [CEH Exam Questions](https://github.com/ryh04x/CEH-Exam-Questions)
+
+
+## 𝐎𝐟𝐟𝐞𝐧𝐬𝐢𝐯𝐞 𝐒𝐞𝐜𝐮𝐫𝐢𝐭𝐲 𝐍𝐨𝐭𝐞𝐬 𝐂𝐨𝐮𝐫𝐬𝐞 𝐚𝐧𝐝 𝐄𝐱𝐚𝐦
+By Joas Antonio Dos Santos
+
+[OSCP AD (Offensive Security Professional)](https://drive.google.com/file/d/14jirVKvHwaFT9789nbQoLHNsmHRGysmH/view)
+
+[OSWE Notes (Offensive Security Web Expert](https://drive.google.com/file/d/1KIc_qsRvlWbaUY04ug9_4zEXySx53yGv/view)
+
+[OSWA Notes (Offensive Security Web Assessor)](https://drive.google.com/file/d/1EEA-y38qH7DOLK2N3XgIid_pNnTiGxtN/view)
+
+[OSEP Notes (Offensive Security Experienced PenTester)](https://drive.google.com/file/d/1L9mfwfzu95B6ukmw425Etbf5hl76u6OC/view)
+
+[OSED Notes (Offensive Security Exploit Development)](https://drive.google.com/file/d/1_mPHr3b3oUhzdwcsC62J4vlX72QZYzzh/view)
+
+[OSDA Notes (Offensive Security Defense Analyst)](https://drive.google.com/file/d/18cAE7QX-kh6zN95pn7-H-VMbjtQoUfHN/view)
+
+[OSMR Notes (Offensive Security MAC Research)](https://drive.google.com/file/d/1qMOKmeFY9dOlpqQ6YCy-4xB_Uqc1AEWf/view)
+
