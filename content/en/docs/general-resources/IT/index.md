@@ -7,7 +7,6 @@ images: []
 weight: 60
 ---
 
-# IT Operations
 
 ---
 
