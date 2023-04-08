@@ -9,8 +9,6 @@ weight: 5
 
 # CHEATSHEETS
 
-<img src="cheatsheets.png" width=30%>
-
 
 <div class="row"> 
 <div class="col-lg">

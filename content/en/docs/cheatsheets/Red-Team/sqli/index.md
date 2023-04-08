@@ -10,7 +10,7 @@ weight: 50
 
 ## SQL Injection
 
-<img src="index.svg">
+<img src="index.svg" width=100%>
 
 ---
 <br><br>
@@ -104,8 +104,6 @@ Once the input validation has been bypassed, the attacker can proceed to executi
 ### Blind Sql fresh payloads
 
     "0"XOR(if(now()=sysdate()%2Csleep(6)%2C0))XOR"Z"
-
-more coming soon..
 
 ---
 

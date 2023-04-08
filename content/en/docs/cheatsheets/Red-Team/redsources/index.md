@@ -57,13 +57,14 @@ Github repository By ryh04x**
 
 #### Link: [CEH Exam Questions](https://github.com/ryh04x/CEH-Exam-Questions)
 
+---
 
-## 𝐎𝐟𝐟𝐞𝐧𝐬𝐢𝐯𝐞 𝐒𝐞𝐜𝐮𝐫𝐢𝐭𝐲 𝐍𝐨𝐭𝐞𝐬 𝐂𝐨𝐮𝐫𝐬𝐞 𝐚𝐧𝐝 𝐄𝐱𝐚𝐦
+## Offensive Security Notes and Exam
 By Joas Antonio Dos Santos
 
 [OSCP AD (Offensive Security Professional)](https://drive.google.com/file/d/14jirVKvHwaFT9789nbQoLHNsmHRGysmH/view)
 
-[OSWE Notes (Offensive Security Web Expert](https://drive.google.com/file/d/1KIc_qsRvlWbaUY04ug9_4zEXySx53yGv/view)
+[OSWE Notes (Offensive Security Web Expert)](https://drive.google.com/file/d/1KIc_qsRvlWbaUY04ug9_4zEXySx53yGv/view)
 
 [OSWA Notes (Offensive Security Web Assessor)](https://drive.google.com/file/d/1EEA-y38qH7DOLK2N3XgIid_pNnTiGxtN/view)
 

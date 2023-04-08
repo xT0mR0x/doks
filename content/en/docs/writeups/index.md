@@ -8,8 +8,6 @@ lead: ""
 
 # WRITE-UPS
 
-<img src="writeupd.png" width=30%>
-
 <div class="col-lg">
     <div class="card my-3">
         <div class="card-body">
