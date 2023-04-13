@@ -60,7 +60,7 @@ Github repository By ryh04x**
 ---
 
 ## Offensive Security Notes and Exam
-By Joas Antonio Dos Santos
+By [Joas Antonio Dos Santos](https://www.linkedin.com/in/joas-antonio-dos-santos)
 
 [OSCP AD (Offensive Security Professional)](https://drive.google.com/file/d/14jirVKvHwaFT9789nbQoLHNsmHRGysmH/view)
 
@@ -76,3 +76,25 @@ By Joas Antonio Dos Santos
 
 [OSMR Notes (Offensive Security MAC Research)](https://drive.google.com/file/d/1qMOKmeFY9dOlpqQ6YCy-4xB_Uqc1AEWf/view)
 
+---
+
+## <img src="apisec.png" width=10%> APISEC University  - API Penetration Testing Course
+
+
+**Instructor: Corey Ball**
+
+**Objectives:**
+
+- Lab Setup
+- API Reconnaissance
+- Endpoint Analysis
+- Scanning APIs
+- API Authentication Attacks
+- Exploiting API Authorization
+- Testing for Improper Assets Management
+- Mass Assignment
+- Injection Attacks
+- Rate Limit Testing
+- Combining Tools and Techniques
+  
+#### Link: [API-SEC](https://www.apisecuniversity.com/courses/api-penetration-testing)

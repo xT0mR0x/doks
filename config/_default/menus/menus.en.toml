@@ -35,7 +35,7 @@
 [[main]]
   name = "Write-ups"
   weight = 40
-  url = "/docs/writeups/"
+  url = "/docs/writeups"
 
 
 

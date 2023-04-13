@@ -4,10 +4,9 @@ draft: false
 images: []
 ---
 
-# Boiler CTF
- Intermediate level CTF
+ <img src="boiler.png">
 
-**by Tom Rosenzweig**
+~ ***by Tom Rosenzweig***
 
 ---
 

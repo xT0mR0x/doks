@@ -6,7 +6,7 @@
         <div class="social-links-container">{{ range .Site.Menus.social -}}
           <ul class="nav">
             <li class="nav-item">
-              <a class="social-link" href="{{ .URL | relURL }}">
+              <a class="social-link" style="color: rgb(139, 139, 139)" href="{{ .URL | relURL }}">
                 {{ .Pre | safeHTML }}
                 <small class="ms-2 d-lg-none">{{ .Name | safeHTML }}</small>
               </a>
