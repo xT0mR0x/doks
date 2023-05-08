@@ -9,10 +9,10 @@ $body-overlay-dark: darken($body-bg-dark, 2.5%);
 $border-dark: darken($body-bg-dark, 2.5%);
 */
 $border-dark: $gray-800;
-$body-color-dark: $gray-300;
+$body-color-dark: rgb(147, 147, 158);
 $dots-dark: darken($body-color-dark, 50%);
 
-$link-color-dark: rgb(147, 96, 255);
+$link-color-dark: rgb(255, 255, 255);
 $button-color-dark: $link-color-dark;
 $focus-color-dark: lighten($link-color-dark, 2.5%);
 
@@ -453,7 +453,7 @@ $navbar-dark-active-color:          $link-color-dark;
 }
 
 [data-dark-mode] body table {
- background-color: transparent;
+ background-color: rgb(24, 0, 33);
  color: #d8d8d8;
 }
 

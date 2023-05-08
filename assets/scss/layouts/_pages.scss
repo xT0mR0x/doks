@@ -1,3 +1,11 @@
+.docs-content{
+  background-color: #ebebeb;
+}
+
+[data-dark-mode] .docs-content{
+  background-color: #131116;
+}
+
 .docs-content > h2[id]::before,
 .docs-content > h3[id]::before,
 .docs-content > h4[id]::before {
@@ -114,4 +122,62 @@ p.meta {
   white-space: pre-line;
   overflow: hidden;
   text-align: left;
+}
+
+.diagram-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.step {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  font-size: 10px;
+  height: 200%;
+  width: 200%;
+  border-radius: 100%;
+  background-color: invert;
+}
+
+.step-text {
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: #666;
+  width: 150px;
+  margin: 0 20px;
+  z-index: 2;
+}
+
+.step:before {
+  content: "";
+  position: absolute;
+  height: 10px;
+  width: 100%;
+  top: 45%;
+  background-color: invert;
+  z-index: -1;
+}
+
+.step:after {
+  content: "";
+  position: absolute;
+  height: 10px;
+  width: calc(100% - 110px);
+  top: 45%;
+  right: -5px;
+  background-color: invert;
+  z-index: -1;
+}
+
+.step.step-1:before {
+  width: 0%;
+  background-color: #ccc;
+}
+
+.step.step-4:after {
+  display: none;
 }

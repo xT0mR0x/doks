@@ -10,7 +10,9 @@ images: []
 
 ---
 
-## Questions #1
+# Questions #1
+
+---
 
 ## File extension after anon login
 
@@ -62,19 +64,19 @@ and this text: "Whfg jnagrq gb frr vs lbh svaq vg. Yby. Erzrzore: Rahzrengvba vf
 
 <br>
 
- ### **Answer** : txt
+  **Answer** : txt
 
 <br>
 
 ## What is on the highest port?
 
-### **Answer** : ssh
+ **Answer** : ssh
 
 <br>
 
 ## What's running on port 10000?
 
-### **Answer**: webmin
+ **Answer**: webmin
 
 <br>
 
@@ -86,7 +88,7 @@ and this text: "Whfg jnagrq gb frr vs lbh svaq vg. Yby. Erzrzore: Rahzrengvba vf
 I went to 10.10.190.117:10000<br>
 Nothing interesting there and it seems to be secured.<br>
 
-### **Answer**: nay
+**Answer**: nay
 
 <br>
 
@@ -139,7 +141,7 @@ You can waste your time by trying to decrypt that decimal line. the result of th
 
 Let's move on to joomla. by quick look we can assume that this is the accessible CMS (Content Management System) 
 
-### **Answer**: joomla
+ **Answer**: joomla
 
 <br>
 
@@ -172,9 +174,11 @@ Try this:
 
 ![](plot.png)![](file.png)
 
-### **Answer**: log.txt
+ **Answer**: log.txt
 
-## Questions #2
+# Questions #2
+
+---
 
 ## Where was the other users pass stored(no extension, just the name)?
 
@@ -206,7 +210,7 @@ Credentials:
 - stoner
 - superduperp@$$no1knows
   
-### **Answer**: backup
+ **Answer**: backup
 
 ## user.txt
 
@@ -220,7 +224,7 @@ Connect to stoner
 
     cat user.txt
     
-### **Answer**: You made it till here, well done.
+ **Answer**: You made it till here, well done.
 
 ## What did you exploit to get the privileged user?
 
@@ -251,11 +255,11 @@ Since the find command is running with root privileges, the cat command is also 
 
 ![](end.png)
 
-### **Answer**: find
+ **Answer**: find
 
 ## root.txt
 
-### **Answer**: It wasn't that hard, was it?
+ **Answer**: It wasn't that hard, was it?
 
 <br><br>
 

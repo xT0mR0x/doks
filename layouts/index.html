@@ -1,89 +1,31 @@
 {{ define "main" }}
+{{ .Content }}
 <div class="row justify-content-center">
 	<div class="col-md-12 col-lg-10 col-xl-8">
 		
-		<br>
-		<h4>Archive</h4>
-		<hr style="color: #006492; text-align: center" >
-		
-		<article>
-			<div class="text-center">{{ .Content }}</div>
-			<div class="card-list">
-				<div class="row"> 
-					<div class="col-lg">
-						<div class="card my-3">
-							<div class="card-body">
-								<h5 class="card-title">Red Team</h5>
-								   <a href="/docs/cheatsheets/red-team/redsources/">Resources</a><br>
-								<a href="/docs/cheatsheets/red-team/redtoolkit/">Toolkit</a><br>
-								<a href="/docs/cheatsheets/red-team/nmapsheet/">Nmap Cheatsheet</a><br>
-								<a href="/docs/cheatsheets/red-team/sqli/">Sql Injection</a>
-							</div>
-						</div>
-						
-						<div class="card my-3">
-							<div class="card-body">
-								<h5 class="card-title">Blue Team</h5>
-								<a href="/docs/cheatsheets/blue-team/toolkit/">Toolkit</a><br>
-								<a href="/docs/cheatsheets/blue-team/wireshark/">Wireshark Display Filters</a>
-							</div>
-						</div>
-						<div class="card my-3">
-							<div class="card-body">
-								<h5 class="card-title">Networking</h5>
-								<a href="/docs/cheatsheets/networking/portsandprotocols/">Protocols and Ports</a>
-							</div>
-						</div>
+<article>
+<br><br>
 
-						<div class="card my-3">
-							<div class="card-body">
-								<h5 class="card-title">Operating Systems</h5>
-								<a href="/docs/cheatsheets/os/linux/basic/linuxbasic/">Linux Basic Commands</a><br>
-								<a href="/docs/cheatsheets/os/linux/adv/linuxadv/">Linux Advanced Commands</a>
-							</div>
-						</div>
-					
-						</div>
-						<div class="col-lg">
-							<div class="card my-3">
-								<div class="card-body">
-									<h5 class="card-title">Writeups</h5>
-									<a href="/docs/writeups/thm/boilerctf">THM - Boiler CTF</a>
-								</div>
-							</div>
-					<div class="col-lg">
-					<div class="card my-3">
-						<div class="card-body">
-							<h5 class="card-title">Go for Pentesting</h5>
-							<a href="/blog/go-scanner/">Go Scanner</a>
-						</div>
-					</div>
-		
 
-		
+<img src="12.png" style="width: 20%; border: 1px solid #000; border-radius: 10%;">   
+<br><br>
+ 
 
-						<div class="card my-3">
-							<div class="card-body">
-								<h5 class="card-title">Python for Pentesting</h5>
-								<a href="/blog/python-scanner/">Port Scanner and Grabber</a><br>
-								<a href="/blog/python-ssh-bruteforcer/">Bruteforce SSH</a>
-							</div>
-						</div>
-					
+<p style="font-size: 22px; font-weight: 100;">Tom Rosenzweig
+</p> 
+<p style="font-size: 16px; font-weight: 200; margin-top: -20px;">Security Researcher and Analyst 
+</p>
+<hr style="color: rgb(17, 97, 114)">
 
-            <div class="card my-3">
-							<div class="card-body">
-								<h5 class="card-title">Doks Website Developing</h5>
-								<a href="/how/doks/intro/">Introduction to Hugo</a><br>
-								<a href="/how/doks/install/">Create a Doks Website</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</article>
-	</div>
+ <!-- <br><br>
+    <div id="text-container"></div>
+   <script src="/animation.js"></script>
+<br><br> -->
+
+<p style="font-size: 16px; font-weight: 200;">	
+<br>My journey into the field of Cyber-Security and IT began in 2021, and since then, I have been dedicated to developing my skills and expertise in this dynamic and ever-evolving industry. <br><br> The purpose of creating this website is to share my documentation and projects, and to create a centralized toolkit by compiling and organizing all the necessary resources in one place, this website serves as a valuable reference point for me to quickly access the tools, techniques, and knowledge I need for my work in the industry. It is my hope that it can also serve as a useful resource for others in the field. <br><br> Thank you for visiting! If you have any questions or comments, please contact me via Linkedin or GitHub on the icon links below! <br><br>
+</p>
+</article>
 </div>
-<br>
-<br>
+</div>
 {{ end }}

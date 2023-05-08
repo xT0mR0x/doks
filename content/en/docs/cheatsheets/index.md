@@ -17,11 +17,20 @@ weight: 5
             <h5 class="card-title">Red Team</h5>
             <a href="/docs/cheatsheets/red-team/redsources/">Resources</a><br>
             <a href="/docs/cheatsheets/red-team/redtoolkit/">Toolkit</a><br>
+            <a href="/docs/cheatsheets/red-team/api-testing/">API Testing</a><br>
+            <a href="/docs/cheatsheets/red-team/bug-bounty-tips/">Bug Bounty Tips</a><br>
             <a href="/docs/cheatsheets/red-team/nmapsheet/">Nmap Cheatsheet</a><br>
-               <a href="/docs/cheatsheets/red-team/sqli/">SQL injection</a>
         </div>
     </div>
-						
+	   <div class="card my-3">
+        <div class="card-body">					
+          <h5 class="card-title">Web Application</h5>
+               <a href="/docs/cheatsheets/red-team/webapp/sqli/">SQL injection</a><br>
+               <a href="/docs/cheatsheets/red-team/webapp/ssrf/">SSRF</a><br>
+               <a href="/docs/cheatsheets/red-team/webapp/xss/">XSS</a>
+        </div>
+    </div>
+
 <div class="card my-3">
     <div class="card-body">
         <h5 class="card-title">Blue Team</h5>

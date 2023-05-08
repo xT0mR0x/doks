@@ -1,6 +1,6 @@
 // Color system
 
-$white:    #fff;
+$white:    #6b6b6b;
 $gray-100: #f8f9fa;
 $gray-200: #e9ecef;
 $gray-300: #dee2e6;
@@ -9,10 +9,10 @@ $gray-500: #b1bdad;
 $gray-600: #00427b;
 $gray-700: #495057;
 $gray-800: #343a40;
-$gray-900: #212529;
+$gray-900: #585858;
 
 $yellow:   #01f;
-$black:    #1d2d35;
+$black:    #626262;
 $beige:    #fbf7f0;
 
 // $red:      #e55235;
@@ -69,8 +69,8 @@ $body-color:                $black;
 //
 // Style anchor elements.
 
-$link-color:                              rgba(51, 0, 255, 0.816);
-$link-decoration:                         none;
+$link-color:                              rgba(0, 0, 0, 0.816);
+$link-decoration:                         bold;
 
 // Grid containers
 //
@@ -107,7 +107,7 @@ $border-color:                $gray-200;
 // stylelint-disable value-keyword-case
 $font-family-sans-serif:      "Jost", -apple-system, blinkmacsystemfont, "Segoe UI", roboto, "Helvetica Neue", arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 $font-family-monospace:       sfmono-regular, menlo, monaco, consolas, "Liberation Mono", "Courier New", monospace;
-$font-family-base:            $font-family-sans-serif;
+$font-family-base:            "Helvetica Neue";
 // stylelint-enable value-keyword-case
 
 $font-size-base:              1rem; // Assumes the browser default, typically `16px`
@@ -119,9 +119,9 @@ $font-size-sm:                $font-size-base * 0.875;
 // $line-height-base:            1.5;
 
 $headings-font-family:        null;
-$headings-font-weight:        700;
+$headings-font-weight:        200;
 
-$lead-font-weight:            400;
+$lead-font-weight:            200;
 
 // Spacing
 //

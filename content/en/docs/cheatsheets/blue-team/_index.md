@@ -1,5 +1,5 @@
 ---
-title: "Blue-Team"
+title: "Blue Team"
 description: ""
 lead: ""
 type: docs

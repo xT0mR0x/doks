@@ -1,22 +1,230 @@
 ---
-title: "API - Testing"
+title: "API Testing"
 description: ""
 lead: ""
 draft: false
 images: []
 weight: 60
+markmap:
+colorFreezeLevel: 2
 ---
 
-# API-Testing
+
+
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body>
+	<header>
+
+</header>
+
+<main>
+<div class="diagram-container">
+<div class="step step-1">
+
+## Top 10 API Vulnerabilities
+
+</div>
+</div>
+
+---
+<br>
+<div class="diagram-container">
+<div class="step step-1">
+<section>
+<h2>1. Broken Object Level Authorization</h2>
+<p>Flawed access control allowing access to sensitive objects, such as unencrypted user data.</p>
+<p><strong>Example:</strong> A user can access other user's data by modifying the URL parameters to the server.</p>
+
+</div>
+</div>
+<br><br><br>
+
+---
+
+<br><br><br>
+
+<div class="diagram-container">
+<div class="step step-1">
+<section>
+<h2>2. Broken Authentication</h2>
+<p>Vulnerability in the authentication mechanism, allowing unauthorized access to user accounts, such as through brute-force attacks.</p>
+<p><strong>Example:</strong> A website that allows users to log in using a weak password, such as "password123," is vulnerable to a brute-force attack.</p>
+</section>
+</div>
+</div>
+<br><br><br>
+
+---
+
+<br><br><br>
+
+<div class="diagram-container">
+<div class="step step-1">
+<section>
+<h2>3. Broken Object Property Level Authorization</h2>
+<p>Weakness in access control allowing modification of object properties, such as changing the ownership of a file.</p>
+<p><strong>Example:</strong> An application that allows users to modify their account permissions via the URL is vulnerable to unauthorized changes by malicious users.</p>
+</section>
+</div>
+</div>
+<br><br><br>
+
+---
+
+<br><br><br>
+
+<div class="diagram-container">
+<div class="step step-1">
+<section>
+<h2>4. Unrestricted Resource Consumption</h2>
+<p>Vulnerability in resource management that allows excessive resource usage, such as overloading a server with requests.</p>
+<p><strong>Example:</strong> A botnet that sends multiple requests to a web server, consuming all available resources and causing a denial-of-service attack.</p>
+</section>
+</div>
+</div>
+<br><br><br>
+
+---
+
+<br><br><br>
+
+<div class="diagram-container">
+<div class="step step-1">
+<section>
+<h2>5. Broken Function Level Authorization</h2>
+<p>Flawed access control allowing unauthorized access to sensitive functions, such as the ability to delete user data.</p>
+<p><strong>Example:</strong> An application that allows any user to delete content without proper authentication or authorization.</p>
+</section>
+</div>
+</div>
+<br><br><br>
+
+---
+
+<br><br><br>
+
+<div class="diagram-container">
+<div class="step step-1">
+<section>
+<h2>6. Server-Side Request Forgery</h2>
+<p>Exploiting server-side functionality to perform unauthorized requests, such as accessing internal resources or bypassing access controls.</p>
+<p><strong>Example:</strong> A malicious user crafting a request to an application to access sensitive files on the server, such as a database password file.</p>
+</section>
+</div>
+</div>
+<br><br><br>
+
+
+---
+
+<br><br><br>
+
+<div class="diagram-container">
+<div class="step step-1">
+<section>
+<h2>7. Security Misconfiguration</h2>
+<p>Configuration errors leading to vulnerabilities, such as an application running with default passwords or debug mode enabled.</p>
+<p><strong>Example:</strong> A web server that allows directory listing, which can reveal sensitive files and directories to attackers.</p>
+</section>
+</div>
+</div>
+<br><br><br>
+
+---
+
+<br><br><br>
+
+<div class="diagram-container">
+<div class="step step-1">
+<section>
+<h2>8. Lack of Protection from Automated Threats</h2>
+<p>Absence of measures to prevent automated attacks and bots, such as rate-limiting and CAPTCHA.</p>
+<p><strong>Example:</strong> An application that does not have rate-limiting or CAPTCHA protection, allowing attackers to perform a large number of requests or account registrations automatically.</p>
+</section>
+</div>
+</div>
+<br><br><br>
+
+---
+
+<br><br><br>
+
+<div class="diagram-container">
+<div class="step step-1">
+<section>
+<h2>9. Improper Assets Management</h2>
+<p>Mismanagement of digital assets leading to vulnerabilities, such as leaving sensitive data in publicly accessible locations.</p>
+<p><strong>Example:</strong> An organization that stores sensitive data on a public cloud storage service with weak or no access controls, allowing anyone to access the data.</p>
+</section>
+</div>
+</div>
+<br><br><br>
+
+---
+
+<br><br><br>
+
+<div class="diagram-container">
+<div class="step step-1">
+<section>
+<h2>10. Unsafe Consumption of APIs</h2>
+<p>Vulnerabilities arising from insecure use of APIs, such as failing to verify input or output data.</p>
+<p><strong>Example:</strong> An application that does not properly validate API input parameters, allowing an attacker to inject malicious code and execute arbitrary commands on the server.</p>
+</section>
+</div>
+</div>
+</main>
+
+<style>
+	
+	p {
+		font-size: 20px;
+	}
+
+</style>
+
+<br>
+
 ---
 
 
-Source and Credit: [APISEC University](https://www.apisecuniversity.com/api-tools-and-resources)
+<br><br><br>
+
+## API Map 
+
+[MindAPI - Map for API pentesting](https://dsopas.github.io/MindAPI/)
+
+<img src="mindapi_play.gif" width=100%>
+
+---
+
+<br><br><br>
+
+---
+
+<br><br><br>
+
+# API Pentesting Resources, Tools and Techniques
+
+Source and Credit: 
+
+- [APISEC University](https://www.apisecuniversity.com/api-tools-and-resources)
+
+- [MindAPI - Map for API pentesting](https://dsopas.github.io/MindAPI/)
 
 <br>
 
 ## Vulnerable APIs
 ---
+
+<br>
 
 [DVWS-node](https://github.com/snoopysecurity/dvws-node) - Damn Vulnerable Web Services is a vulnerable application with a web service and an API that can be used to learn about webservices/API related vulnerabilities.
 
@@ -37,6 +245,7 @@ completely ridiculous API (crAPI) will help you to understand the ten most criti
 [vAPI](https://github.com/roottusk/vapi)
 vAPI is Vulnerable Adversely Programmed Interface which is Self-Hostable API that mimics OWASP API Top 10 scenarios through Exercises.
 
+<br>
 
 ## Tools
 ---
@@ -100,7 +309,7 @@ vAPI is Vulnerable Adversely Programmed Interface which is Self-Hostable API tha
 
 [APIs Guru](https://apis.guru/) A machine-readable Wikipedia for Web APIs in the OpenAPI Specification format.
 
-### Google
+### Google Dorking
 
 Google: try advanced searches to discover API information, for example:
 
@@ -133,7 +342,7 @@ Google: try advanced searches to discover API information, for example:
 | inurl:/api/data ext:json OR ext:xml                     | Searches for JSON or XML files containing data in APIs.                          |
 
 
-### Github
+### Github Dorking
 
 GitDorking is a reconnaissance technique used to search GitHub repositories for sensitive information which can be used to assist an attack against a target organization. Popular search terms include "api key", "api keys", "apikey", "authorization: Bearer", "access_token", "secret", or “token”. 
 
@@ -198,3 +407,10 @@ Browse the largest network of APIs, workspaces, and collections by developers ac
 Bookstore: [https://tryhackme.com/room/bookstoreoc](https://tryhackme.com/room/bookstoreoc)<br>
 IDOR: [https://tryhackme.com/why-subscribe](https://tryhackme.com/why-subscribe)<br>
 GraphQL: [https://tryhackme.com/room/carpediem1](https://tryhackme.com/room/carpediem1) 
+
+---
+<br><br>
+
+<br><br>
+
+
