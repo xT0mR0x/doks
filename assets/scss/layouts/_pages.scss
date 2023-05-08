@@ -1,8 +1,8 @@
-.docs-content{
+.docs-content {
   background-color: #ebebeb;
 }
 
-[data-dark-mode] .docs-content{
+[data-dark-mode] .docs-content {
   background-color: #131116;
 }
 
@@ -28,7 +28,7 @@ h4:hover a {
 }
 
 body .card {
-  background-color: #ffffff;
+  background-color: #fff;
   border: 1px solid #e5e5e5;
   color: #000;
   transition: all 0.3s ease;
@@ -152,7 +152,7 @@ p.meta {
   z-index: 2;
 }
 
-.step:before {
+.step::before {
   content: "";
   position: absolute;
   height: 10px;
@@ -162,7 +162,7 @@ p.meta {
   z-index: -1;
 }
 
-.step:after {
+.step::after {
   content: "";
   position: absolute;
   height: 10px;
@@ -173,11 +173,11 @@ p.meta {
   z-index: -1;
 }
 
-.step.step-1:before {
+.step.step-1::before {
   width: 0%;
   background-color: #ccc;
 }
 
-.step.step-4:after {
+.step.step-4::after {
   display: none;
 }

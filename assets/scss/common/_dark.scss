@@ -23,7 +23,7 @@ $navbar-dark-active-color:          $link-color-dark;
 /** Theme styles */
 
 [data-dark-mode] body {
-  background-image: linear-gradient(to bottom, #000000, #131120);
+  background-image: linear-gradient(to bottom, #000, #131120);
   color: $body-color-dark;
 }
 
@@ -346,8 +346,8 @@ $navbar-dark-active-color:          $link-color-dark;
 }
 
 [data-dark-mode] body .footer {
-  border-top: 0px;
-  background-image: linear-gradient(to top, #000000,  #0e0c18);
+  border-top: 0;
+  background-image: linear-gradient(to top, #000, #0e0c18);
 }
 
 [data-dark-mode] body .docs-links,
@@ -444,7 +444,7 @@ $navbar-dark-active-color:          $link-color-dark;
 }
 
 [data-dark-mode] body .alert-primary {
-  background:rgba(12, 12, 14, 0.95);
+  background: rgba(12, 12, 14, 0.95);
   color: rgb(255, 255, 255);
 }
 
@@ -453,8 +453,8 @@ $navbar-dark-active-color:          $link-color-dark;
 }
 
 [data-dark-mode] body table {
- background-color: rgb(24, 0, 33);
- color: #d8d8d8;
+  background-color: rgb(24, 0, 33);
+  color: #d8d8d8;
 }
 
 [data-dark-mode] body .copy-status::after {

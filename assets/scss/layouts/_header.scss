@@ -56,11 +56,9 @@ body .navbar-brand:hover::after {
 
 [data-dark-mode] {
   .pro-text {
-  fill: #cdcdcd; /* white color for dark mode */
+    fill: #cdcdcd; /* white color for dark mode */
   }
-}
 
-[data-dark-mode] {
   .tomr-text {
     fill: #006eff; /* white color for dark mode */
   }
@@ -191,8 +189,8 @@ button#doks-versions {
 */
 
 .header-bar {
-  border-top:thin solid;
-  border-image-source: linear-gradient(90deg, #000000, #000000 50%, #000000);
+  border-top: thin solid;
+  border-image-source: linear-gradient(90deg, #000, #000 50%, #000);
   border-image-slice: 1;
 }
 

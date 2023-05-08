@@ -1,5 +1,6 @@
 table {
   @extend .table;
+
   border-collapse: collapse;
   width: 100%;
   font-size: 20px;
@@ -21,12 +22,12 @@ td {
   background-color: #f7f7f7;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease-in-out;
-  }
-  
-  td:hover {
+}
+
+td:hover {
   background-color: #ffffff75;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  }
+}
 
 th {
   background-color: #f2f2f2;

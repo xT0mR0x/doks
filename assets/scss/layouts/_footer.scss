@@ -39,8 +39,7 @@ ul.nav {
 /* new style */
 .social-links-container {
   display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
+  flex-flow: row nowrap; /* Use flex-flow shorthand property */
   justify-content: center;
   align-items: center;
   margin: 0;
@@ -62,4 +61,3 @@ ul.nav {
 .footer-links li {
   margin: 10px;
 }
-
