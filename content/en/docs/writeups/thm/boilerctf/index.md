@@ -4,7 +4,7 @@ draft: false
 images: []
 ---
 
- <img src="boiler.png">
+ <img src="boiler.png" width=100%>
 
 ~ ***by Tom Rosenzweig***
 
